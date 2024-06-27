@@ -51,12 +51,19 @@ public class BirdLauncher : MonoBehaviour
 
     void Drag()
     {
+        Vector3 dragVector = CalculateDragVector();
+        currentBird.transform.position = launchPoint.position - dragVector;
+    }
+
+    private Vector3 CalculateDragVector()
+    {
         Vector3 dragVector = initialPosition - GetMouseWorldPosition();
         if (dragVector.magnitude > _maxMagnitude)
         {
             dragVector = dragVector.normalized * _maxMagnitude;
         }
-        currentBird.transform.position = launchPoint.position - dragVector;
+
+        return dragVector;
     }
 
     void Release()
