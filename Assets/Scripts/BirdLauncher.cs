@@ -9,6 +9,7 @@ public class BirdLauncher : MonoBehaviour
 
     private GameObject currentBird;
     private bool isDragging = false;
+    private bool cameraFollowing = false;
     private Vector3 initialPosition;
     [SerializeField]
     private float _maxMagnitude;
@@ -27,6 +28,21 @@ public class BirdLauncher : MonoBehaviour
         {
             Release();
         }
+        if (cameraFollowing)
+        {
+            CameraFollow();
+        }
+    }
+
+    void CameraFollow()
+    {
+        Vector3 currentBirdPosition = currentBird.transform.position;
+        Camera.main.transform.position = new Vector3(currentBirdPosition.x, GetCameraPosition().y, GetCameraPosition().z);
+    }
+
+    private static Vector3 GetCameraPosition()
+    {
+        return Camera.main.transform.position;
     }
 
     void StartDrag()
@@ -53,6 +69,7 @@ public class BirdLauncher : MonoBehaviour
     {
         Vector3 dragVector = CalculateDragVector();
         currentBird.transform.position = launchPoint.position - dragVector;
+        cameraFollowing = false;
     }
 
     private Vector3 CalculateDragVector()
@@ -72,5 +89,6 @@ public class BirdLauncher : MonoBehaviour
         Vector3 launchDirection = launchPoint.position - currentBird.transform.position;
         SetGravityStatusFor(currentBird, true);
         currentBird.GetComponent<Rigidbody2D>().AddForce(launchDirection * launchForce);
+        cameraFollowing = true;
     }
 }
