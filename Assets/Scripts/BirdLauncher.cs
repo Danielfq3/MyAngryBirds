@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BirdLauncher : MonoBehaviour
@@ -12,6 +13,8 @@ public class BirdLauncher : MonoBehaviour
     private Vector3 initialPosition;
     [SerializeField]
     private float _maxMagnitude;
+    [SerializeField]
+    private List<GameObject> _birdsPool;
 
     private enum State
     {
@@ -48,13 +51,14 @@ public class BirdLauncher : MonoBehaviour
 
     void StartDrag()
     {
-        currentBird = Instantiate(birdPrefab, launchPoint.position, Quaternion.identity);
+        currentBird = _birdsPool[0];
+        currentBird.transform.position = launchPoint.transform.position;
         SetGravityStatusFor(currentBird, false);
         initialPosition = GetMouseWorldPosition();
         isDragging = true;
         currentBird.GetComponent<Bird>().OnBirdDestroyed += OnBirdDestroyed;
         OnBirdStartLaunching();
-        
+
     }
 
     private void OnBirdDestroyed()
@@ -98,6 +102,7 @@ public class BirdLauncher : MonoBehaviour
         SetGravityStatusFor(currentBird, true);
         currentBird.GetComponent<Rigidbody2D>().AddForce(launchDirection * launchForce);
         OnBirdLaunched();
+        _birdsPool.Remove(currentBird);
     }
 
     internal Vector3 GetBirdPosition()
