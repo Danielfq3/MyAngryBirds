@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e6e50004cc57844b2b9d122174ab02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  birdPrefab: {fileID: 1894174954146038501, guid: 26b126010fb12c54289e81958af21671, type: 3}
+  birdPrefab: {fileID: 1894174954146038501, guid: b9e7e6f12ee5a6445ad6174ef0bd91f6, type: 3}
   launchPoint: {fileID: 539908969}
   launchForce: 2100
   _maxMagnitude: 1.2
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770573625}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38bae1cfd461ecb4fb152d2de13af829, type: 3}
   m_Name: 

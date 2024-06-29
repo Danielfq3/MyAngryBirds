@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bird : MonoBehaviour
 {
-    private void Update()
+    private void Awake()
     {
         Destroy(gameObject, 15);
     }
