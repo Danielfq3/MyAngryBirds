@@ -13,6 +13,9 @@ public class BirdLauncher : MonoBehaviour
     [SerializeField]
     private float _maxMagnitude;
 
+    public event Action OnBirdLaunched = delegate { };
+    public event Action OnBirdStartLaunching = delegate { };
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -40,6 +43,7 @@ public class BirdLauncher : MonoBehaviour
         SetGravityStatusFor(currentBird, false);
         initialPosition = GetMouseWorldPosition();
         isDragging = true;
+        OnBirdStartLaunching();
     }
 
     private void SetGravityStatusFor(GameObject currentBird, bool status)
@@ -77,5 +81,16 @@ public class BirdLauncher : MonoBehaviour
         Vector3 launchDirection = launchPoint.position - currentBird.transform.position;
         SetGravityStatusFor(currentBird, true);
         currentBird.GetComponent<Rigidbody2D>().AddForce(launchDirection * launchForce);
+        OnBirdLaunched();
+    }
+
+    internal Vector3 GetBirdPosition()
+    {
+        return currentBird.transform.position;
+    }
+
+    internal bool IsBirdDestroyed()
+    {
+        return currentBird == null;
     }
 }
