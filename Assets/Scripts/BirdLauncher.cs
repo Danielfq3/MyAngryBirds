@@ -13,20 +13,29 @@ public class BirdLauncher : MonoBehaviour
     [SerializeField]
     private float _maxMagnitude;
 
+    private enum State
+    {
+        ReadyToLaunch,
+        Disabled
+    }
+
+    private State _launchState = State.ReadyToLaunch;
+
     public event Action OnBirdLaunched = delegate { };
     public event Action OnBirdStartLaunching = delegate { };
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && _launchState == State.ReadyToLaunch)
         {
             StartDrag();
+            _launchState = State.Disabled;
         }
         if (isDragging)
         {
             Drag();
         }
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && isDragging)
         {
             Release();
         }
@@ -43,7 +52,14 @@ public class BirdLauncher : MonoBehaviour
         SetGravityStatusFor(currentBird, false);
         initialPosition = GetMouseWorldPosition();
         isDragging = true;
+        currentBird.GetComponent<Bird>().OnBirdDestroyed += OnBirdDestroyed;
         OnBirdStartLaunching();
+        
+    }
+
+    private void OnBirdDestroyed()
+    {
+        _launchState = State.ReadyToLaunch;
     }
 
     private void SetGravityStatusFor(GameObject currentBird, bool status)
