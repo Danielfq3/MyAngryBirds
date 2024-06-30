@@ -15,8 +15,8 @@ public class Bird : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Invoke(nameof(BirdDestroyed), 2);
-        Destroy(gameObject, 2);
+        Invoke(nameof(BirdDestroyed), 4);
+        Destroy(gameObject, 4);
     }
 
     private void BirdDestroyed()

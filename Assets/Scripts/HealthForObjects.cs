@@ -11,6 +11,11 @@ public class HealthForObjects : MonoBehaviour
     private float _breakForce;
     private float _currentHealth;
 
+    private Vector3 GetPlankPosition()
+    {
+        return gameObject.transform.position;
+    }
+
     private void Start()
     {
         _currentHealth = _maxHealth;
