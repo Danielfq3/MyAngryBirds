@@ -6,6 +6,7 @@ using UnityEngine;
 public class Bird : MonoBehaviour
 {
     public event Action OnBirdDestroyed = delegate { };
+    public event Action OnBirdCollided = delegate { };
     private void Awake()
     {
         if (gameObject.GetComponent<Rigidbody2D>().isKinematic == false)
@@ -15,11 +16,12 @@ public class Bird : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        OnBirdCollided();
         Invoke(nameof(BirdDestroyed), 4);
         Destroy(gameObject, 4);
     }
 
-    private void BirdDestroyed()
+    protected void BirdDestroyed()
     {
         OnBirdDestroyed();
     }
