@@ -54,7 +54,6 @@ public class BirdLauncher : MonoBehaviour
     {
         currentBird = _birdsPool[0];
         currentBird.transform.position = launchPoint.transform.position;
-        currentBird.GetComponent<Rigidbody2D>().simulated = true;
         SetGravityStatusFor(currentBird, false);
         initialPosition = GetMouseWorldPosition();
         isDragging = true;
