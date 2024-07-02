@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -201,11 +201,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -296,11 +296,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -390,11 +390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -460,11 +460,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -554,11 +554,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -852,6 +852,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
+      propertyPath: _explosionForce
+      value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
+      propertyPath: _explosionRadius
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1894174954146038501, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: m_Name
       value: BomBirdPrefab (2)
@@ -925,11 +933,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -990,11 +998,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -1084,11 +1092,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1149,11 +1157,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -1241,14 +1249,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlankHorizontal (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _breakForce
-      value: 10000
-      objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.20000002
@@ -1308,11 +1308,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -1402,11 +1402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1476,11 +1476,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1586,11 +1586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1655,11 +1655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1975,11 +1975,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2050,11 +2050,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -2138,6 +2138,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
+      propertyPath: _explosionForce
+      value: 20000
+      objectReference: {fileID: 0}
+    - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
+      propertyPath: _explosionRadius
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1894174954146038501, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: m_Name
       value: BomBirdPrefab
@@ -2197,11 +2205,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: _explosionForce
-      value: -100000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: _explosionRadius
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1894174954146038501, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: m_Name
@@ -2266,11 +2274,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2331,11 +2339,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -2425,11 +2433,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2494,11 +2502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2563,11 +2571,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2628,11 +2636,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -2718,11 +2726,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -2808,11 +2816,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -2903,11 +2911,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -2993,11 +3001,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3222,11 +3230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -3292,11 +3300,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3382,11 +3390,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3472,11 +3480,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3562,11 +3570,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3652,11 +3660,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3782,11 +3790,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3872,11 +3880,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -3966,11 +3974,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -4036,11 +4044,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -4126,11 +4134,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -4216,11 +4224,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -4320,11 +4328,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -4385,11 +4393,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -4484,11 +4492,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -4549,11 +4557,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -4639,11 +4647,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -4738,11 +4746,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -4807,11 +4815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -4877,11 +4885,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -4967,11 +4975,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -5057,11 +5065,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass
@@ -5246,11 +5254,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -5445,11 +5453,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -5519,11 +5527,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -5584,11 +5592,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 1000
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 10000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Mass

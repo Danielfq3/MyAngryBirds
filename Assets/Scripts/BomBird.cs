@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BomBird : Bird
@@ -45,6 +46,13 @@ public class BomBird : Bird
 
     private void Explode()
     {
+        foreach (var plank in FindAllPlanks())
+        {
+            if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius / 1.5)
+            {
+                Destroy(plank.gameObject);
+            }
+        }
         foreach (var plank in FindAllPlanks())
         {
             if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
