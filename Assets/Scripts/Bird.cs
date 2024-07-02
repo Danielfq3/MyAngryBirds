@@ -7,13 +7,7 @@ public class Bird : MonoBehaviour
 {
     public event Action OnBirdDestroyed = delegate { };
     public event Action OnBirdCollided = delegate { };
-    private void Awake()
-    {
-        if (gameObject.GetComponent<Rigidbody2D>().isKinematic == false)
-        {
-            Destroy(gameObject, 1);
-        }
-    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         OnBirdCollided();
