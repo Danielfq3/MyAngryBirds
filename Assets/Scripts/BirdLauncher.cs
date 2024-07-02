@@ -100,9 +100,10 @@ public class BirdLauncher : MonoBehaviour
     void Release()
     {
         isDragging = false;
+        float currentBirdMass = currentBird.GetComponent<Rigidbody2D>().mass;
         Vector3 launchDirection = launchPoint.position - currentBird.transform.position;
         SetGravityStatusFor(currentBird, true);
-        currentBird.GetComponent<Rigidbody2D>().AddForce(launchDirection * launchForce);
+        currentBird.GetComponent<Rigidbody2D>().AddForce(launchDirection * launchForce * currentBirdMass);
         OnBirdLaunched();
         _birdsPool.Remove(currentBird);
     }
