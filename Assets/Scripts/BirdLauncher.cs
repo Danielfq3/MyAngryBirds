@@ -65,7 +65,12 @@ public class BirdLauncher : MonoBehaviour
 
     private void OnBirdDestroyed()
     {
-        _launchState = State.ReadyToLaunch;
+        StartCoroutine(ExecuteAfterTime(1));
+        IEnumerator ExecuteAfterTime(float time)
+        {
+            yield return new WaitForSeconds(time);
+            _launchState = State.ReadyToLaunch;
+        }
     }
 
     private void SetGravityStatusFor(GameObject currentBird, bool status)
