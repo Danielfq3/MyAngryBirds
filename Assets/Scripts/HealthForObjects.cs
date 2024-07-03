@@ -11,7 +11,7 @@ public class HealthForObjects : MonoBehaviour
     private float _breakForce;
     private float _currentHealth;
 
-    private Vector3 GetPlankPosition()
+    private Vector3 GetObjectPosition()
     {
         return gameObject.transform.position;
     }
