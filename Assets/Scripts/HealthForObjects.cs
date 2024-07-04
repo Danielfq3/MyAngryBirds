@@ -1,9 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class HealthForObjects : MonoBehaviour
 {
+    [SerializeField]
+    private float BirdDamageMultiplier = 4;
     [SerializeField]
     private float _maxHealth = 100f;
 
@@ -23,13 +27,20 @@ public class HealthForObjects : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.relativeVelocity.magnitude * collision.otherRigidbody.mass > _breakForce)
+        if (collision.relativeVelocity.magnitude * collision.otherRigidbody.mass <= _breakForce)
         {
-            _currentHealth -= collision.relativeVelocity.magnitude;
-            if (_currentHealth <= 0f)
-            {
-                Destroy(gameObject);
-            }
+            return;
+        }
+        float collisionForce = collision.relativeVelocity.magnitude * collision.otherRigidbody.mass;
+        if (collision.gameObject.tag == "Bird")
+        {
+            collisionForce *= BirdDamageMultiplier;
+        }
+        print(collision.gameObject.tag == "Bird");
+        _currentHealth -= collisionForce;
+        if (_currentHealth <= 0f)
+        {
+            Destroy(gameObject);
         }
     }
 }

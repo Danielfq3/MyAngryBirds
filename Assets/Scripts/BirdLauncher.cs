@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
@@ -62,15 +63,15 @@ public class BirdLauncher : MonoBehaviour
         OnBirdStartLaunching();
 
     }
+    private IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        _launchState = State.ReadyToLaunch;
+    }
 
     private void OnBirdDestroyed()
     {
         StartCoroutine(ExecuteAfterTime(1));
-        IEnumerator ExecuteAfterTime(float time)
-        {
-            yield return new WaitForSeconds(time);
-            _launchState = State.ReadyToLaunch;
-        }
     }
 
     private void SetGravityStatusFor(GameObject currentBird, bool status)

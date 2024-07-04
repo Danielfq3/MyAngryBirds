@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -6972161981068893530}
   m_Layer: 0
   m_Name: BomBirdPrefab
-  m_TagString: Untagged
+  m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,4 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d36b5ff2c941043a8c8456291362b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _explosionRadius: 4
   _explosionForce: 10000
