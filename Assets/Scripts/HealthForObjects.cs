@@ -15,6 +15,9 @@ public class HealthForObjects : MonoBehaviour
     private float _breakForce;
     private float _currentHealth;
 
+    public static Action OnObjectDestroyed = delegate { };
+    public void SetHealth(int health) => _currentHealth = health;
+
     private Vector3 GetObjectPosition()
     {
         return gameObject.transform.position;
@@ -41,6 +44,7 @@ public class HealthForObjects : MonoBehaviour
         if (_currentHealth <= 0f)
         {
             Destroy(gameObject);
+            OnObjectDestroyed();
         }
     }
 }

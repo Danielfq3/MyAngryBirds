@@ -6,9 +6,11 @@ using UnityEngine;
 public class BomBird : Bird
 {
     [SerializeField]
+    private float _destroyRadiusMultiplier = 0.5f;
+    [SerializeField]
     private float _explosionRadius = 4;
     [SerializeField]
-    private int _explosionForce = 10000;
+    private int _explosionForce = 10;
 
     private HealthForObjects[] FindAllPlanks()
     {
@@ -48,9 +50,9 @@ public class BomBird : Bird
     {
         foreach (var plank in FindAllPlanks())
         {
-            if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius / 1.5)
+            if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius / (1 / _destroyRadiusMultiplier))
             {
-                Destroy(plank.gameObject);
+                plank.gameObject.GetComponent<HealthForObjects>().SetHealth(0);
             }
         }
         foreach (var plank in FindAllPlanks())
@@ -58,7 +60,7 @@ public class BomBird : Bird
             if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
             {
                 Vector3 boomDirection = plank.transform.position - gameObject.transform.position;
-                float boomStrenght = _explosionForce / boomDirection.sqrMagnitude;
+                float boomStrenght = _explosionForce * 10000 / boomDirection.sqrMagnitude;
                 gameObject.GetComponent<Rigidbody2D>().mass = boomStrenght;
                 plank.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomStrenght);
             }
