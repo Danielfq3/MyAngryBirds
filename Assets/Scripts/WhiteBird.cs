@@ -35,7 +35,7 @@ public class WhiteBird : Bird
             {
                 var jo1 = Instantiate(_egg, gameObject.transform.position ,Quaternion.identity);
                 jo1.GetComponent<Rigidbody2D>().velocity = GetVelocityForEgg();
-                gameObject.GetComponent<Rigidbody>().velocity += new Vector3(0f, _changeVectorAfterEggLaunched);
+                gameObject.GetComponent<Rigidbody2D>().velocity += new Vector2(0f, _changeVectorAfterEggLaunched);
                 _birdsSpawned = true;
             }
         }
