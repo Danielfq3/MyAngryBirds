@@ -1426,6 +1426,7 @@ GameObject:
   - component: {fileID: 770573627}
   - component: {fileID: 770573626}
   - component: {fileID: 770573629}
+  - component: {fileID: 770573630}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -1520,6 +1521,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _birdLauncher: {fileID: 183396279}
+--- !u!114 &770573630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770573625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228b12491f4b948419043655d36827d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tagretFPS: 72
 --- !u!1001 &776061366
 PrefabInstance:
   m_ObjectHideFlags: 0
