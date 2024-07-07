@@ -7,25 +7,24 @@ using UnityEngine.UIElements;
 
 public class ScoreCounter : MonoBehaviour
 {
-    private HealthForObjects[] FindAllObjects()
-    {
-        return Object.FindObjectsByType<HealthForObjects>(FindObjectsSortMode.None);
-    }
+    [SerializeField]
+    private ScoreConfig _scoreConfig;
 
     [SerializeField]
     private TextMeshProUGUI _scoreText;
+
     [SerializeField]
     private int _score = 0;
+
+    public void AddScore(string tag)
+    {
+        int score = _scoreConfig.GetScoreFor(tag);
+        _score += score;
+        _scoreText.text = _score.ToString();
+    }
 
     private void Start()
     {
         _scoreText.text = _score.ToString();
-        HealthForObjects.OnObjectDestroyed += OnObjectDestroyed;
-    }
-
-    private void OnObjectDestroyed()
-    {
-        _score += 25;
-;       _scoreText.text = _score.ToString();
     }
 }

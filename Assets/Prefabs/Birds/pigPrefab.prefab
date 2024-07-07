@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -3701029567245963578}
   m_Layer: 0
   m_Name: pigPrefab
-  m_TagString: Untagged
+  m_TagString: Pig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,5 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3818f0324a4d0c544bacec7ba02ae2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BirdDamageMultiplier: 4
   _maxHealth: 3
   _breakForce: 1

@@ -12,7 +12,7 @@ public class BomBird : Bird
     [SerializeField]
     private int _explosionForce = 10;
 
-    private HealthForObjects[] FindAllPlanks()
+    private HealthForObjects[] FindAllObjects()
     {
         return Object.FindObjectsByType<HealthForObjects>(FindObjectsSortMode.None);
     }
@@ -48,21 +48,21 @@ public class BomBird : Bird
 
     private void Explode()
     {
-        foreach (var plank in FindAllPlanks())
+        foreach (var @object in FindAllObjects())
         {
-            if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius / (1 / _destroyRadiusMultiplier))
+            if ((@object.transform.position - gameObject.transform.position).magnitude < _explosionRadius / (1 / _destroyRadiusMultiplier))
             {
-                plank.gameObject.GetComponent<HealthForObjects>().SetHealth(0);
+                @object.gameObject.GetComponent<HealthForObjects>().SetHealth(0);
             }
         }
-        foreach (var plank in FindAllPlanks())
+        foreach (var @object in FindAllObjects())
         {
-            if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
+            if ((@object.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
             {
-                Vector3 boomDirection = plank.transform.position - gameObject.transform.position;
+                Vector3 boomDirection = @object.transform.position - gameObject.transform.position;
                 float boomStrenght = _explosionForce * 10000 / boomDirection.sqrMagnitude;
                 gameObject.GetComponent<Rigidbody2D>().mass = boomStrenght;
-                plank.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomStrenght);
+                @object.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomStrenght);
             }
         }
         Destroy(gameObject);

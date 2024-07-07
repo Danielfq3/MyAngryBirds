@@ -8,12 +8,18 @@ public class HealthForObjects : MonoBehaviour
 {
     [SerializeField]
     private float BirdDamageMultiplier = 4;
+
     [SerializeField]
     private float _maxHealth = 100f;
 
     [SerializeField]
     private float _breakForce;
     private float _currentHealth;
+
+    private ScoreCounter FindScoreCounterObject()
+    {
+        return FindObjectOfType<ScoreCounter>();
+    }
 
     public static Action OnObjectDestroyed = delegate { };
     public void SetHealth(int health) => _currentHealth = health;
@@ -39,13 +45,12 @@ public class HealthForObjects : MonoBehaviour
         {
             collisionForce *= BirdDamageMultiplier;
         }
-        print(collision.gameObject.tag == "Bird");
         _currentHealth -= collisionForce;
         if (_currentHealth <= 0f)
         {
+            FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
             Destroy(gameObject);
             OnObjectDestroyed();
         }
     }
 }
-
