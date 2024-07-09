@@ -53,4 +53,13 @@ public class HealthForObjects : MonoBehaviour
             OnObjectDestroyed();
         }
     }
+    private void Update()
+    {
+        if (gameObject.transform.position.magnitude > 1000)
+        {
+            FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
+            Destroy(gameObject);
+            OnObjectDestroyed();
+        }
+    }
 }
