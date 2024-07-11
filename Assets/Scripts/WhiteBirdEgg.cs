@@ -8,7 +8,7 @@ public class WhiteBirdEgg : Bird
     [SerializeField]
     private float _explosionRadius = 4;
     [SerializeField]
-    private int _explosionForce = 100000;
+    private float _explosionForce = 100000;
 
     private HealthForObjects[] FindAllPlanks()
     {
