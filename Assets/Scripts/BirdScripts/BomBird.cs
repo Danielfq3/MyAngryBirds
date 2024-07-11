@@ -48,21 +48,22 @@ public class BomBird : Bird
 
     private void Explode()
     {
-        foreach (var @object in FindAllObjects())
+        foreach (var affectedObject in FindAllObjects())
         {
-            if ((@object.transform.position - gameObject.transform.position).magnitude < _explosionRadius / (1 / _destroyRadiusMultiplier))
+            if ((affectedObject.transform.position - gameObject.transform.position).magnitude < _explosionRadius * _destroyRadiusMultiplier)
             {
-                @object.gameObject.GetComponent<HealthForObjects>().SetHealth(0);
+                print("booooom");
+                affectedObject.GetComponent<HealthForObjects>().SetHealth(0);
             }
         }
-        foreach (var @object in FindAllObjects())
+        foreach (var affectedObject in FindAllObjects())
         {
-            if ((@object.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
+            if ((affectedObject.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
             {
-                Vector3 boomDirection = @object.transform.position - gameObject.transform.position;
-                float boomStrenght = _explosionForce * 10000 / boomDirection.sqrMagnitude;
-                gameObject.GetComponent<Rigidbody2D>().mass = boomStrenght;
-                @object.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomStrenght);
+                Vector3 boomDirection = affectedObject.transform.position - gameObject.transform.position;
+                float boomForce = _explosionForce * 1000 / boomDirection.sqrMagnitude;
+                boomForce *= affectedObject.GetComponent<Rigidbody2D>().mass;
+                affectedObject.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomForce);
             }
         }
         Destroy(gameObject);

@@ -7,14 +7,20 @@ using UnityEngine;
 public class HealthForObjects : MonoBehaviour
 {
     [SerializeField]
+    private int _collisionForceMultiplier = 100;
+    [SerializeField]
+    private int _breakForceMultiplier = 100;
+    [SerializeField]
     private float BirdDamageMultiplier = 4;
 
     [SerializeField]
-    private float _maxHealth = 100f;
+    private int _maxHealth = 3;
 
     [SerializeField]
     private float _breakForce;
-    private float _currentHealth;
+    private int _currentHealth;
+
+    public event Action<(int health, int maxHealth)> OnHealthChanged = delegate { };
 
     private ScoreCounter FindScoreCounterObject()
     {
@@ -22,6 +28,7 @@ public class HealthForObjects : MonoBehaviour
     }
 
     public static Action OnObjectDestroyed = delegate { };
+
     public void SetHealth(int health) => _currentHealth = health;
 
     private Vector3 GetObjectPosition()
@@ -36,7 +43,7 @@ public class HealthForObjects : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.relativeVelocity.magnitude * collision.otherRigidbody.mass <= _breakForce)
+        if (collision.relativeVelocity.magnitude * collision.otherRigidbody.mass / _breakForceMultiplier <= _breakForce)
         {
             return;
         }
@@ -45,7 +52,10 @@ public class HealthForObjects : MonoBehaviour
         {
             collisionForce *= BirdDamageMultiplier;
         }
-        _currentHealth -= collisionForce;
+        collisionForce = _collisionForceMultiplier;
+        _currentHealth -= ((int)collisionForce);
+        OnHealthChanged((_currentHealth, _maxHealth));
+        gameObject.GetComponent<Renderer>().material.color = new Color(_currentHealth/_maxHealth, 0, 0, 0);
         if (_currentHealth <= 0f)
         {
             FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
@@ -55,6 +65,12 @@ public class HealthForObjects : MonoBehaviour
     }
     private void Update()
     {
+        if (_currentHealth <= 0f)
+        {
+            FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
+            Destroy(gameObject);
+            OnObjectDestroyed();
+        }
         if (gameObject.transform.position.magnitude > 1000)
         {
             FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);

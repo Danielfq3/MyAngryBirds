@@ -14,7 +14,6 @@ public class NextLevel : MonoBehaviour
     
     private void GoToNextLevel()
     {
-        print(CheckForPigs().Length);
         if (CheckForPigs().Length == 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

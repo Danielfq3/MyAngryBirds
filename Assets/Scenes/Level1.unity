@@ -189,15 +189,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -262,15 +270,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -331,15 +347,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -631,15 +655,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -700,15 +732,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: _explosionForce
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: _explosionRadius
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -6972161981068893530, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
-      propertyPath: _destroyRadiusMultiplier
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1894174954146038501, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: m_Name
@@ -769,15 +797,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -988,15 +1024,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1092,15 +1136,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1287,15 +1339,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1360,15 +1420,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1619,15 +1687,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1684,15 +1760,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1753,15 +1837,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1826,11 +1918,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.861608
+      value: 9.89
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.5700426
+      value: -6.64
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1879,15 +1971,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1952,15 +2052,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2015,6 +2123,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: BirdDamageMultiplier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
       value: PlankVertical
@@ -2078,15 +2198,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2143,15 +2271,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -2366,15 +2502,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2431,7 +2575,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: BirdDamageMultiplier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -2501,11 +2661,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.828381
+      value: 9.89
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5861952
+      value: -1.62
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2683,16 +2843,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _breakForce
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -2757,15 +2917,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3042,15 +3210,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3105,6 +3281,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: BirdDamageMultiplier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
       value: PlankVertical (4)
@@ -3236,15 +3432,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3301,15 +3505,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -3374,11 +3586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.9012947
+      value: 7.89
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.603268
+      value: -6.64
       objectReference: {fileID: 0}
     - target: {fileID: 4993345983025317629, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3458,15 +3670,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -3657,15 +3877,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -3730,15 +3958,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _maxHealth
-      value: 3000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
-      value: 200
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
