@@ -18,7 +18,7 @@ public class HealthForObjects : MonoBehaviour
 
     private ScoreCounter FindScoreCounterObject()
     {
-        return FindObjectOfType<ScoreCounter>();
+        return FindObjectOfType<ScoreCounter>(includeInactive:true);
     }
 
     public static Action OnObjectDestroyed = delegate { };
