@@ -20,7 +20,7 @@ public class HealthForObjects : MonoBehaviour
     private float _breakForce;
     private int _currentHealth;
 
-    public event Action<(int health, int maxHealth)> OnHealthChanged = delegate { };
+    public event Action<int> OnHealthChanged = delegate { };
 
     private ScoreCounter FindScoreCounterObject()
     {
@@ -52,10 +52,9 @@ public class HealthForObjects : MonoBehaviour
         {
             collisionForce *= BirdDamageMultiplier;
         }
-        collisionForce = _collisionForceMultiplier;
+        collisionForce /= _collisionForceMultiplier;
         _currentHealth -= ((int)collisionForce);
-        OnHealthChanged((_currentHealth, _maxHealth));
-        gameObject.GetComponent<Renderer>().material.color = new Color(_currentHealth/_maxHealth, 0, 0, 0);
+        OnHealthChanged(_currentHealth);
         if (_currentHealth <= 0f)
         {
             FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);

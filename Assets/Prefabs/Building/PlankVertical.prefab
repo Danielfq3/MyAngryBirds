@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 165930731268254749}
   - component: {fileID: 195259817919088084}
   - component: {fileID: -4730207867049562819}
+  - component: {fileID: 6181287942502891441}
   m_Layer: 0
   m_Name: PlankVertical
   m_TagString: Plank
@@ -171,8 +172,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3818f0324a4d0c544bacec7ba02ae2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collisionForceMultiplier: 750
-  _breakForceMultiplier: 750
-  BirdDamageMultiplier: 5
+  _collisionForceMultiplier: 350
+  _breakForceMultiplier: 300
+  BirdDamageMultiplier: 2
   _maxHealth: 3
   _breakForce: 1
+--- !u!114 &6181287942502891441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908141035900537015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a51eec72902664db923d28e86f91a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
