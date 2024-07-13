@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -393993715907298497, guid: 26b126010fb12c54289e81958af21671, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1894174954146038501, guid: 26b126010fb12c54289e81958af21671, type: 3}
       propertyPath: m_Name
       value: birdPrefab
@@ -188,24 +192,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -264,13 +268,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -278,15 +282,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -341,13 +345,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -355,15 +359,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -654,24 +658,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -738,6 +742,10 @@ PrefabInstance:
       propertyPath: _explosionRadius
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: -393993715907298497, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1894174954146038501, guid: 26d9e40525a93a340937564f19fd1f49, type: 3}
       propertyPath: m_Name
       value: BomBirdPrefab
@@ -796,24 +804,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -873,24 +881,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -980,13 +988,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -994,15 +1002,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1188,24 +1196,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1264,13 +1272,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -1278,15 +1286,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1508,7 +1516,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1894174954146038501, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1141628652}
   m_SourcePrefab: {fileID: 100100000, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
 --- !u!1001 &782797236
 PrefabInstance:
@@ -1518,13 +1529,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -1532,15 +1543,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1596,24 +1607,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1673,24 +1684,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1807,24 +1818,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -1883,13 +1894,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -1897,15 +1908,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1960,6 +1971,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: BirdDamageMultiplier
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _breakForceMultiplier
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: _collisionForceMultiplier
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
       value: PlankVertical
@@ -2017,13 +2044,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -2031,15 +2058,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2095,24 +2122,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -2168,6 +2195,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1894174954146038501, guid: 26b126010fb12c54289e81958af21671, type: 3}
   m_PrefabInstance: {fileID: 72677143}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1141628646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1894174954146038501, guid: 5575c909868b557479d995ad8f6cdddf, type: 3}
+  m_PrefabInstance: {fileID: 776061366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1141628652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141628646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a51eec72902664db923d28e86f91a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1160200699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2176,13 +2220,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -2190,15 +2234,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2254,24 +2298,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -2523,20 +2567,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -2595,13 +2639,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -2609,15 +2653,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2782,7 +2826,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8411391070303720798, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
   m_PrefabInstance: {fileID: 7059478206486050076}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1489637082
+--- !u!114 &1489637083 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -1384304325576727183, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+  m_PrefabInstance: {fileID: 7059478206486050076}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489637077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d10f43f0dd7724d96886b2933c6594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &1489637087 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5725058834187386058, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+  m_PrefabInstance: {fileID: 7059478206486050076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1489637088
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2791,7 +2851,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1489637077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d10f43f0dd7724d96886b2933c6594, type: 3}
+  m_Script: {fileID: 11500000, guid: febe94bc98a1970448c8f211eeb6f402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1492335238
@@ -2802,13 +2862,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -2816,15 +2876,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2880,24 +2940,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -3024,13 +3084,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -3038,15 +3098,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3102,24 +3162,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -3267,24 +3327,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -3474,24 +3534,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
-      propertyPath: _maxHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -4730207867049562819, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 165930731268254749, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 908141035900537015, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
       propertyPath: m_Name
@@ -3542,6 +3602,138 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1081d746f2d0e34db7107d9d1b450f5, type: 3}
+--- !u!1 &2086627376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086627377}
+  - component: {fileID: 2086627381}
+  - component: {fileID: 2086627380}
+  - component: {fileID: 2086627379}
+  m_Layer: 5
+  m_Name: NextLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2086627377
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086627376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1489637087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.88143754, y: 0.809}
+  m_AnchorMax: {x: 0.9556458, y: 0.93970376}
+  m_AnchoredPosition: {x: 1.5, y: 0.5}
+  m_SizeDelta: {x: -14, y: -13}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2086627379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086627376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 0.6679245, g: 0.6679245, b: 0.6679245, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2086627380}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1489637083}
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: GoToNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2086627380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086627376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 12558ec56d7b426488e156802512866c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2086627381
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086627376}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2123315259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3550,13 +3742,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1429798943366750642, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2089801049048384792, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_Name
       value: PlankHorizontal (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
-      propertyPath: _maxHealth
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForce
@@ -3564,15 +3756,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: BirdDamageMultiplier
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _breakForceMultiplier
-      value: 300
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3440968432857292946, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: _collisionForceMultiplier
-      value: 350
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8298621742752571308, guid: fad04368d78ea4747a630d3a305de2d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3627,6 +3819,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643350511809452292, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+      propertyPath: m_Name
+      value: Reset
+      objectReference: {fileID: 0}
+    - target: {fileID: 2714964847869362369, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+      propertyPath: m_Name
+      value: ScoreCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384540279588035959, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1489637088}
+    - target: {fileID: 4384540279588035959, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetScene
+      objectReference: {fileID: 0}
     - target: {fileID: 5725058834187386058, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3715,13 +3923,17 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 770573627}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1581078086414930938, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5725058834187386058, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2086627377}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8411391070303720798, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1489637082}
+      insertIndex: 4
+      addedObject: {fileID: 1489637088}
   m_SourcePrefab: {fileID: 100100000, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

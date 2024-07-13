@@ -12,17 +12,22 @@ public class NextLevel : MonoBehaviour
         return GameObject.FindGameObjectsWithTag("Pig");
     }
     
-    private void GoToNextLevel()
+    private void ShowButton()
     {
         if (CheckForPigs().Length == 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            gameObject.transform.GetChild(2).gameObject.SetActive(true);
         }
+    }
+
+    public void GoToNextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void Update()
     {
-        GoToNextLevel();
+        ShowButton();
     }
 
 }

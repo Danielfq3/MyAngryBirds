@@ -161,8 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3818f0324a4d0c544bacec7ba02ae2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collisionForceMultiplier: 5
-  _breakForceMultiplier: 5
+  _collisionForceMultiplier: 3
+  _breakForceMultiplier: 1
   BirdDamageMultiplier: 1
   _maxHealth: 3
   _breakForce: 1

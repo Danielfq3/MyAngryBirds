@@ -13,6 +13,6 @@ public class HealthIndicator : MonoBehaviour
     private void OnHealthChanged(int currentHealth)
     {
         print(currentHealth);
-        gameObject.GetComponent<Renderer>().material.color = new Color(currentHealth / 3, 0, 0, 1);
+        gameObject.GetComponent<Renderer>().material.color = new Color((float)currentHealth / 3, 0, 0, 1);
     }
 }
