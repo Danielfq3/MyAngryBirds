@@ -100,7 +100,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 50
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 1
@@ -172,9 +172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3818f0324a4d0c544bacec7ba02ae2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collisionForceMultiplier: 450
-  _breakForceMultiplier: 400
-  BirdDamageMultiplier: 1.6
+  _collisionForceMultiplier: 35
+  _breakForceMultiplier: 35
+  BirdDamageMultiplier: 1.4
   _maxHealth: 3
   _breakForce: 1
 --- !u!114 &6181287942502891441

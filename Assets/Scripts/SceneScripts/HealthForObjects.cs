@@ -29,7 +29,7 @@ public class HealthForObjects : MonoBehaviour
 
     public static Action OnObjectDestroyed = delegate { };
 
-    public void SetHealth(int health) => _currentHealth = health;
+    public void SubtractHealth(int health) => _currentHealth -= health;
 
     private Vector3 GetObjectPosition()
     {
