@@ -112,6 +112,8 @@ public class BirdLauncher : MonoBehaviour
         currentBird.GetComponent<Rigidbody2D>().AddForce(launchDirection * launchForce * currentBirdMass);
         OnBirdLaunched();
         _birdsPool.Remove(currentBird);
+        ParticleActivator particleActivator = currentBird.GetComponent<ParticleActivator>();
+        particleActivator.EnableParticles();
     }
 
     internal Vector3 GetBirdPosition()
