@@ -6,46 +6,33 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField]
-    private BirdLauncher _birdLauncher;
-    private Vector3 GetCameraPosition() => Camera.main.transform.position;
+    private Vector2 lastMousePosition;
 
-    private void SetCameraPosition(Vector3 position) => Camera.main.transform.position = position;
+    private Vector2 lastCameraPosition;
 
-    private bool _cameraMoving = false;
-    private Vector3 GetVectorToBird()
-    {
-        return (GetBirdPosition() - GetCameraPosition()).normalized * 0.01f;
-    }
+    private bool dragMovementActive;
 
-    private void Start()
-    {
-        _birdLauncher.OnBirdLaunched += OnBirdLaunched;
-        _birdLauncher.OnBirdStartLaunching += OnBirdStartLaunching;
-    }
 
-    private void OnBirdStartLaunching()
-    {
-        _cameraMoving = false;
-    }
-
-    private void OnBirdLaunched()
-    {
-        _cameraMoving = true;
-    }
-
-    private Vector3 GetBirdPosition() => _birdLauncher.GetBirdPosition();
-
-    // Update is called once per frame
     void Update()
     {
-        if (_birdLauncher.IsBirdDestroyed())
+        if (Input.GetMouseButtonDown(1))
         {
-            _cameraMoving = false;
+            lastCameraPosition = Camera.main.transform.position;
+            dragMovementActive = true;
+            lastMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
-        if (_cameraMoving)
+
+        if (Input.GetMouseButtonUp(1))
         {
-            SetCameraPosition(GetCameraPosition() + new Vector3(GetVectorToBird().x, 0f, 0f));
+            dragMovementActive = false;
+        }
+
+
+        if (dragMovementActive)
+        {
+            Vector2 mouseMovementDelta = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - lastMousePosition;
+            print(mouseMovementDelta);
+            gameObject.transform.position = lastCameraPosition -mouseMovementDelta;
         }
     }
 }

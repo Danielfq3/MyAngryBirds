@@ -40,7 +40,7 @@ public class BirdLauncher : MonoBehaviour
         {
             Drag();
         }
-        if (Input.GetMouseButtonUp(0) && isDragging)
+        if (Input.GetMouseButtonUp(0) && isDragging && CalculateDragVector().magnitude > 0.2)
         {
             Release();
         }
