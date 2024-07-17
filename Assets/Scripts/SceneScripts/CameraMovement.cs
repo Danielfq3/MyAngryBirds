@@ -1,38 +1,36 @@
+using Cinemachine;
 using Cinemachine.Utility;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    private Vector2 lastMousePosition;
-
-    private Vector2 lastCameraPosition;
-
-    private bool dragMovementActive;
+    private Vector3 touchStart;
+    private float minZoom = 2;
+    private float maxZoom = 12; 
 
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if(Input.GetMouseButtonDown(0))
         {
-            lastCameraPosition = Camera.main.transform.position;
-            dragMovementActive = true;
-            lastMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
-
-        if (Input.GetMouseButtonUp(1))
+        if (Input.GetMouseButton(0))
         {
-            dragMovementActive = false;
+            Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Camera.main.transform.position += direction;
         }
-
-
-        if (dragMovementActive)
-        {
-            Vector2 mouseMovementDelta = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - lastMousePosition;
-            print(mouseMovementDelta);
-            gameObject.transform.position = lastCameraPosition -mouseMovementDelta;
-        }
+        Zoom(Input.GetAxis("Mouse ScrollWheel"));
     }
+
+    void Zoom(float increment)
+    {
+        gameObject.GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, minZoom, maxZoom);
+    }
+
+
 }

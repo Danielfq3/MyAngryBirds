@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7509935520989560548}
   - component: {fileID: 2642810980778113513}
+  - component: {fileID: 7911857120912452695}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -55,7 +56,7 @@ MonoBehaviour:
   m_Follow: {fileID: 298639859455403635}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 6
+    OrthographicSize: 8
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -72,6 +73,18 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 3356615398112340833}
+--- !u!114 &7911857120912452695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955318085986383961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38bae1cfd461ecb4fb152d2de13af829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1794347927460715656
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +182,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 298639859455403635}
-  - component: {fileID: 1388303756358846506}
   m_Layer: 0
   m_Name: CameraSystem
   m_TagString: Untagged
@@ -192,18 +204,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1043811780261295071}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1388303756358846506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2395922966399058426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38bae1cfd461ecb4fb152d2de13af829, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6189378749573635758
 GameObject:
   m_ObjectHideFlags: 0

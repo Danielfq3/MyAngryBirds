@@ -657,9 +657,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1388303756358846506, guid: 3848722535718974ea6d8ee7bdc302a5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6189378749573635758, guid: 3848722535718974ea6d8ee7bdc302a5, type: 3}
       propertyPath: m_Name
       value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626655753281711346, guid: 3848722535718974ea6d8ee7bdc302a5, type: 3}
+      propertyPath: orthographic size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445165663284849041, guid: 3848722535718974ea6d8ee7bdc302a5, type: 3}
+      propertyPath: m_XDamping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445165663284849041, guid: 3848722535718974ea6d8ee7bdc302a5, type: 3}
+      propertyPath: m_YDamping
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
