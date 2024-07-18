@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4603199802608838040}
   - component: {fileID: 1400675760578072974}
   - component: {fileID: 2828412165674913077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: YellowBirdPrefab
   m_TagString: Bird
   m_Icon: {fileID: 0}

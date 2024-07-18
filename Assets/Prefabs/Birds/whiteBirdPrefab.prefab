@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6364320426408241176}
   - component: {fileID: 863607037691587382}
   - component: {fileID: 6018736406812720658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: whiteBirdPrefab
   m_TagString: Bird
   m_Icon: {fileID: 0}
