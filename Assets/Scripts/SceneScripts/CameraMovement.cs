@@ -8,18 +8,20 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    private Vector3 touchStart;
+    [SerializeField]
     private float minZoom = 2;
-    private float maxZoom = 12; 
+    [SerializeField]
+    private float maxZoom = 12;
+
+    private Vector3 dragOrigin;
+    private Vector3 originalPos;
+
+    [SerializeField]
+    private float cameraZoomSensitivity = 12;
 
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }
-
         if (Input.touchCount == 2)
         {
             Touch touchZero = Input.GetTouch(0);
@@ -35,23 +37,34 @@ public class CameraMovement : MonoBehaviour
 
             float difference = currentMagnitude - previousMagnitude;
 
-            Zoom(difference);
-            Camera.main.transform.position += (Vector3)touchMiddlePosition * 0.1f;
+            Zoom(difference / cameraZoomSensitivity);
+            Camera.main.transform.position += (Vector3)((touchMiddlePosition / (Camera.main.orthographicSize / cameraZoomSensitivity) - touchMiddlePosition) * ((Camera.main.orthographicSize - minZoom) / cameraZoomSensitivity));
 
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            dragOrigin = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            originalPos = transform.position;
         }
 
         if (Input.GetMouseButton(0))
         {
-            Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Camera.main.transform.position += direction;
+            Vector3 difference = dragOrigin - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Camera.main.transform.position = originalPos + difference;
         }
-        if (Input.mouseScrollDelta.y != 0)
+
+        if (Input.mouseScrollDelta.y > 0)
         {
-            Zoom(Input.mouseScrollDelta.y * 0.5f);
-            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Camera.main.transform.position = ((mousePosition / (Camera.main.orthographicSize / 10) - mousePosition) * Camera.main.orthographicSize / 10);
-            Camera.main.transform.position += new Vector3 (1, 1, 0);
-            Camera.main.transform.position += new Vector3 (0, 0, -10);
+            Zoom(Input.mouseScrollDelta.y);
+            Vector2 mouseRelativePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Camera.main.transform.position;
+            Camera.main.transform.position += (Vector3)((mouseRelativePosition / (Camera.main.orthographicSize / cameraZoomSensitivity) - mouseRelativePosition) * ((Camera.main.orthographicSize - minZoom) / cameraZoomSensitivity));
+        }
+        if (Input.mouseScrollDelta.y < 0)
+        {
+            Zoom(Input.mouseScrollDelta.y);
+            Vector2 mouseRelativePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Camera.main.transform.position;
+            Camera.main.transform.position -= (Vector3)((mouseRelativePosition / (Camera.main.orthographicSize / cameraZoomSensitivity) - mouseRelativePosition) * ((Camera.main.orthographicSize - minZoom) / cameraZoomSensitivity));
         }
     }
 

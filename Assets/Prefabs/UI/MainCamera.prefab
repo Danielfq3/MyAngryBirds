@@ -85,6 +85,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bae1cfd461ecb4fb152d2de13af829, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minZoom: 2
+  maxZoom: 12
+  cameraZoomSensitivity: 12
 --- !u!1 &1794347927460715656
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,7 +279,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 8
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
