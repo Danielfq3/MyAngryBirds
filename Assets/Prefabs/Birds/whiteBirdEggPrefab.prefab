@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -393993715907298497}
   - component: {fileID: 1354580634753008845}
   - component: {fileID: -5558880796009532504}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: whiteBirdEggPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,5 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92691e89051454748b338ad4373f2d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionRadius: 4
-  _explosionForce: 0.6
+  _DestroyMultiplier: 5
+  _explosionRadius: 5
+  _explosionForce: 1

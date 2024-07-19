@@ -6,46 +6,44 @@ using UnityEngine;
 public class WhiteBirdEgg : Bird
 {
     [SerializeField]
+    private float _DestroyMultiplier = 3;
+    [SerializeField]
     private float _explosionRadius = 4;
     [SerializeField]
-    private float _explosionForce = 100000;
+    private int _explosionForce = 10;
 
-    private HealthForObjects[] FindAllPlanks()
+    private HealthForObjects[] FindAllObjects()
     {
         return Object.FindObjectsByType<HealthForObjects>(FindObjectsSortMode.None);
     }
 
     private void OnEnable()
     {
-        OnBirdCollided += EggCollided;
+        OnBirdCollided += BirdCollided;
     }
     private void OnDisable()
     {
-        OnBirdCollided -= EggCollided;
+        OnBirdCollided -= BirdCollided;
     }
 
-    private void EggCollided()
+    private void BirdCollided()
     {
         Explode();
     }
 
     private void Explode()
     {
-        foreach (var plank in FindAllPlanks())
+        foreach (var affectedObject in FindAllObjects())
         {
-            if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius / 1.5)
+            if ((affectedObject.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
             {
-                Destroy(plank.gameObject);
-            }
-        }
-        foreach (var plank in FindAllPlanks())
-        {
-            if ((plank.transform.position - gameObject.transform.position).magnitude < _explosionRadius)
-            {
-                Vector3 boomDirection = plank.transform.position - gameObject.transform.position;
-                float boomStrenght = _explosionForce / boomDirection.sqrMagnitude;
-                gameObject.GetComponent<Rigidbody2D>().mass = boomStrenght;
-                plank.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomStrenght);
+                Vector3 boomDirection = affectedObject.transform.position - gameObject.transform.position;
+                float boomForce = _explosionForce * 1000 / boomDirection.sqrMagnitude;
+                float destroyForce = _DestroyMultiplier / boomDirection.magnitude;
+                boomForce *= affectedObject.GetComponent<Rigidbody2D>().mass;
+                print(destroyForce);
+                affectedObject.GetComponent<HealthForObjects>().SubtractHealth((int)destroyForce);
+                affectedObject.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomForce);
             }
         }
         Destroy(gameObject);
