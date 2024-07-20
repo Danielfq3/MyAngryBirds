@@ -18,6 +18,9 @@ public class BirdLauncher : MonoBehaviour
     [SerializeField]
     private List<GameObject> _birdsPool;
 
+    [SerializeField]
+    float launchRadius = 3;
+
     private enum State
     {
         ReadyToLaunch,
@@ -31,7 +34,7 @@ public class BirdLauncher : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && _launchState == State.ReadyToLaunch)
+        if (Input.GetMouseButtonDown(0) && ((Vector2)(Camera.main.ScreenToWorldPoint(Input.mousePosition) - launchPoint.position)).magnitude < launchRadius && _launchState == State.ReadyToLaunch)
         {
             StartDrag();
             _launchState = State.Disabled;
@@ -71,7 +74,7 @@ public class BirdLauncher : MonoBehaviour
 
     private void OnBirdDestroyed()
     {
-        StartCoroutine(ExecuteAfterTime(1));
+        StartCoroutine(ExecuteAfterTime(0.1f));
     }
 
     private void SetGravityStatusFor(GameObject currentBird, bool status)

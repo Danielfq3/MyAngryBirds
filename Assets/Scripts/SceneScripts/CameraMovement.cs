@@ -18,7 +18,7 @@ public class CameraMovement : MonoBehaviour
 
     [SerializeField]
     private float cameraZoomSensitivity = 12;
-
+    private Vector3 touchStart;
 
     private void Update()
     {
@@ -30,7 +30,10 @@ public class CameraMovement : MonoBehaviour
             Vector2 touchZeroPreviousPosition = touchZero.position - touchZero.deltaPosition;
             Vector2 touchOnePreviousPosition = touchOne.position - touchOne.deltaPosition;
 
-            Vector2 touchMiddlePosition = (touchZero.position + touchOne.position) / 2;
+            Vector2 touchZeroRelativePosition = Camera.main.ScreenToWorldPoint(touchZero.position) - Camera.main.transform.position;
+            Vector2 touchOneRelativePosition = Camera.main.ScreenToWorldPoint(touchOne.position) - Camera.main.transform.position;
+
+            Vector2 touchMiddlePosition = (touchZeroRelativePosition + touchOneRelativePosition) / 2;
 
             float previousMagnitude = (touchZeroPreviousPosition - touchOnePreviousPosition).magnitude;
             float currentMagnitude = (touchZero.position - touchOne.position).magnitude;
@@ -38,20 +41,38 @@ public class CameraMovement : MonoBehaviour
             float difference = currentMagnitude - previousMagnitude;
 
             Zoom(difference / cameraZoomSensitivity);
-            Camera.main.transform.position += (Vector3)((touchMiddlePosition / (Camera.main.orthographicSize / cameraZoomSensitivity) - touchMiddlePosition) * ((Camera.main.orthographicSize - minZoom) / cameraZoomSensitivity));
+            if (difference > 0)
+            {
+                Camera.main.transform.position += (Vector3)((touchMiddlePosition / (Camera.main.orthographicSize / cameraZoomSensitivity) - touchMiddlePosition) * ((Camera.main.orthographicSize - minZoom) / cameraZoomSensitivity));
+            }
+
+            if (difference < 0)
+            {
+                Camera.main.transform.position -= (Vector3)((touchMiddlePosition / (Camera.main.orthographicSize / cameraZoomSensitivity) - touchMiddlePosition) * ((Camera.main.orthographicSize - minZoom) / cameraZoomSensitivity));
+            }
 
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Input.touchCount == 1)
         {
-            dragOrigin = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            originalPos = transform.position;
+            touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && Input.touchCount == 1)
         {
-            Vector3 difference = dragOrigin - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Camera.main.transform.position = originalPos + difference;
+            Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Camera.main.transform.position += direction;
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
+
+        if (Input.GetMouseButton(1))
+        {
+            Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Camera.main.transform.position += direction;
         }
 
         if (Input.mouseScrollDelta.y > 0)
