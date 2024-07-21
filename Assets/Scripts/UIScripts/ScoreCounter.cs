@@ -27,4 +27,9 @@ public class ScoreCounter : MonoBehaviour
     {
         _scoreText.text = _score.ToString();
     }
+
+    public int GetScore()
+    {
+        return _score;
+    }
 }

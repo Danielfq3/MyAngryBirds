@@ -7,6 +7,9 @@ using UnityEngine.UIElements;
 
 public class NextLevel : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject _ui;
+
     private GameObject[] CheckForPigs()
     {
         return GameObject.FindGameObjectsWithTag("Pig");
@@ -14,10 +17,15 @@ public class NextLevel : MonoBehaviour
     
     private void ShowButton()
     {
-        if (CheckForPigs().Length == 0)
+        foreach (Transform transform in gameObject.transform)
         {
-            gameObject.transform.GetChild(2).gameObject.SetActive(true);
+            transform.gameObject.SetActive(true);
         }
+    }
+
+    private void HideUI()
+    {
+        _ui.gameObject.SetActive(false);
     }
 
     public void GoToNextLevel()
@@ -27,7 +35,11 @@ public class NextLevel : MonoBehaviour
 
     private void Update()
     {
-        ShowButton();
+        if (CheckForPigs().Length == 0)
+        {
+            ShowButton();
+            HideUI();
+        }
     }
 
 }
