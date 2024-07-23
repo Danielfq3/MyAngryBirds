@@ -9,9 +9,4 @@ public class ResetButton : MonoBehaviour
 
         SceneManager.LoadScene(currentSceneName);
     }
-
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
 }

@@ -15,6 +15,11 @@ public class NextLevel : MonoBehaviour
     {
         return GameObject.FindGameObjectsWithTag("Pig");
     }
+
+    private GameObject[] FindAllBirds()
+    {
+        return GameObject.FindGameObjectsWithTag("Bird");
+    }
     
     private void ShowWinMenu(bool _bool)
     {
@@ -27,14 +32,12 @@ public class NextLevel : MonoBehaviour
     private void HideUI()
     {
         _ui.gameObject.SetActive(false);
-        print(FindAllPigs().Length);
     }
 
     private void ShowUI()
     {
         _ui.gameObject.SetActive(true);
     }
-
 
     public void GoToNextLevel()
     {
@@ -43,22 +46,16 @@ public class NextLevel : MonoBehaviour
 
     private void Update()
     {
-        if (FindAllPigs().Length > 0)
+        if (FindAllPigs().Length < 1 || FindAllBirds().Length < 1)
         {
-            if (gameObject.transform.GetChild(0).gameObject.activeInHierarchy == true)
-            {
-                ShowWinMenu(false);
-                ShowUI();
-            }
+            ShowWinMenu(true);
+            HideUI();
             return;
         }
-        ShowWinMenu(true);
-        HideUI();
+        if (gameObject.transform.GetChild(0).gameObject.activeInHierarchy == true)
+        {
+            ShowWinMenu(false);
+            ShowUI();
+        }
     }
-
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
-
 }
