@@ -29,6 +29,18 @@ public class NextLevel : MonoBehaviour
         }
     }
 
+    private void ShowWinMenuExeptNextLevelButton(bool status)
+    {
+        foreach (Transform transform in gameObject.transform)
+        {
+            if (transform.gameObject.name == "NextLevel")
+            {
+                continue;
+            }
+            transform.gameObject.SetActive(status);
+        }
+    }
+
     private void HideUI()
     {
         _ui.gameObject.SetActive(false);
@@ -46,9 +58,15 @@ public class NextLevel : MonoBehaviour
 
     private void Update()
     {
-        if (FindAllPigs().Length < 1 || FindAllBirds().Length < 1)
+        if (FindAllPigs().Length < 1)
         {
             ShowWinMenu(true);
+            HideUI();
+            return;
+        }
+        if (FindAllBirds().Length < 1)
+        {
+            ShowWinMenuExeptNextLevelButton(true);
             HideUI();
             return;
         }
