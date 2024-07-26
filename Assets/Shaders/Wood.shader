@@ -85,7 +85,7 @@ Shader "Unlit/Wood"
             {
                 i.uv.x = i.uv.x + _Seed;
                 float2 st = i.uv * 0.5;
-                st.x = st.x * 0.15;
+                st.x = st.x * 0.1;
                             //st.y *= iResolution.y / iResolution.x;
 
                 float2 pos = st.xy * float2(10.0, 3.0);
