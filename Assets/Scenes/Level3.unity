@@ -1611,6 +1611,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StonePlankVertical (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3790342822018700271, guid: 0890643c1b0951849802aef9acf7a87f, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790342822018700271, guid: 0890643c1b0951849802aef9acf7a87f, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7111336710290772483, guid: 0890643c1b0951849802aef9acf7a87f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -6072,6 +6080,14 @@ PrefabInstance:
     - target: {fileID: 908141035900537015, guid: 0890643c1b0951849802aef9acf7a87f, type: 3}
       propertyPath: m_Name
       value: StonePlankVertical (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790342822018700271, guid: 0890643c1b0951849802aef9acf7a87f, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790342822018700271, guid: 0890643c1b0951849802aef9acf7a87f, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7111336710290772483, guid: 0890643c1b0951849802aef9acf7a87f, type: 3}
       propertyPath: m_LocalScale.x
