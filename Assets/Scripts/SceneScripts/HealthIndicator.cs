@@ -1,17 +1,44 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class HealthIndicator : MonoBehaviour
 {
-    private void Start()
+    [SerializeField]
+    private Sprite _spriteCracked1;
+    [SerializeField]
+    private Sprite _spriteCracked2;
+
+    private HealthForObjects _healthForObjects;
+
+    private void Awake()
     {
-        GetComponent<HealthForObjects>().OnHealthChanged += OnHealthChanged;
+        _healthForObjects = GetComponent<HealthForObjects>();
+    }
+
+
+    private void OnEnable()
+    {
+        _healthForObjects.OnHealthChanged += OnHealthChanged;
+    }
+
+    private void OnDisable()
+    {
+        _healthForObjects.OnHealthChanged -= OnHealthChanged;
     }
 
     private void OnHealthChanged(int currentHealth)
     {
-        gameObject.GetComponent<Renderer>().material.color = new Color((float)currentHealth / 3, 0, 0, 1);
+        if (currentHealth == 2)
+        {
+            GetComponent<SpriteRenderer>().sprite = _spriteCracked1;
+        }
+        
+        if (currentHealth == 1)
+        {
+            GetComponent<SpriteRenderer>().sprite = _spriteCracked2;
+        }
     }
 }

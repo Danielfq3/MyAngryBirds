@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -18,16 +19,17 @@ public class HealthForObjects : MonoBehaviour
 
     [SerializeField]
     private float _breakForce;
+    [SerializeField]
     private int _currentHealth;
 
     public event Action<int> OnHealthChanged = delegate { };
-
     private ScoreCounter FindScoreCounterObject()
     {
         return FindObjectOfType<ScoreCounter>(includeInactive:true);
     }
 
     public static Action OnObjectDestroyed = delegate { };
+    private int previousValue;
 
     public void SubtractHealth(int health) => _currentHealth -= health;
 
@@ -54,7 +56,6 @@ public class HealthForObjects : MonoBehaviour
         }
         collisionForce /= _collisionForceMultiplier;
         _currentHealth -= ((int)collisionForce);
-        OnHealthChanged(_currentHealth);
         if (_currentHealth <= 0f)
         {
             FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
@@ -64,6 +65,15 @@ public class HealthForObjects : MonoBehaviour
     }
     private void Update()
     {
+        if (_currentHealth != previousValue)
+        {
+            OnHealthChanged(_currentHealth);
+            //command type here
+            // Execute additional code here
+            // ...
+            previousValue = _currentHealth; // Update the previous value
+        }
+
         if (_currentHealth <= 0f)
         {
             FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
