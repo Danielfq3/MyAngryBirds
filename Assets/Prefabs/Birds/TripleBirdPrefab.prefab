@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 654305464816211888}
   - component: {fileID: 5929670754689762384}
   - component: {fileID: 4603199802608838040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TripleBirdPrefab
   m_TagString: Bird
   m_Icon: {fileID: 0}
@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.15686274, g: 0.70718926, b: 0.77254903, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 51cbbcae91860f6428488ba6efde0dc3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_DrawMode: 1
+  m_Size: {x: 0.8, y: 0.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -132,7 +132,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -149,9 +149,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03, y: -0.07}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.3
 --- !u!114 &6309224786762004855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,8 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9854a547e3301c44c9e23554e04167bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _particleSystem: {fileID: 0}
-  _birdLauncher: {fileID: 0}
+  spriteCracked: {fileID: 21300000, guid: a462ae2738d37cc4c902e8c21a38924d, type: 3}
+  _spriteFlying: {fileID: 21300000, guid: 3926821e9422a1b4b98b851d0339357b, type: 3}
 --- !u!198 &654305464816211888
 ParticleSystem:
   m_ObjectHideFlags: 0

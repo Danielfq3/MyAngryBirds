@@ -17,7 +17,6 @@ public class BirdLauncher : MonoBehaviour
     private float _maxMagnitude;
     [SerializeField]
     private List<GameObject> _birdsPool;
-
     [SerializeField]
     float launchRadius = 3;
 
@@ -113,6 +112,7 @@ public class BirdLauncher : MonoBehaviour
         Vector3 launchDirection = launchPoint.position - currentBird.transform.position;
         SetGravityStatusFor(currentBird, true);
         currentBird.GetComponent<Rigidbody2D>().AddForce(launchDirection * launchForce * currentBirdMass);
+        currentBird.GetComponent<Bird>().launched();
         OnBirdLaunched();
         _birdsPool.Remove(currentBird);
         ParticleActivator particleActivator = currentBird.GetComponent<ParticleActivator>();
