@@ -28,10 +28,10 @@ public class BomBird : Bird
 
     private void BirdCollided()
     {
-        StartCoroutine(DelayExplosion(3));
+        StartCoroutine(DelayExplosion(1.9f));
     }
 
-    IEnumerator DelayExplosion(int seconds)
+    IEnumerator DelayExplosion(float seconds)
     {
         yield return new WaitForSeconds(seconds);
         Explode();
