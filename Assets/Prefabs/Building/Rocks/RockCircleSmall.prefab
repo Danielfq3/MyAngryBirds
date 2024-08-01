@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1303242134774806191}
   m_Layer: 0
   m_Name: RockCircleSmall
-  m_TagString: Plank
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   _collisionForceMultiplier: 35
   _breakForceMultiplier: 35
   BirdDamageMultiplier: 1.4
-  _maxHealth: 3
+  _maxHealth: 6
   _breakForce: 1
   _currentHealth: 0
 --- !u!114 &-1296163686602472928
