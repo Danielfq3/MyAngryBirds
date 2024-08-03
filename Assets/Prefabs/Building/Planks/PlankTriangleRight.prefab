@@ -132,7 +132,7 @@ MonoBehaviour:
   BirdDamageMultiplier: 1.4
   _maxHealth: 3
   _breakForce: 1
-  _currentHealth: 0
+  _currentHealth: 3
 --- !u!114 &-1296163686602472928
 MonoBehaviour:
   m_ObjectHideFlags: 0
