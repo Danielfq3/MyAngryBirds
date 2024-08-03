@@ -7,18 +7,18 @@
             "actions": [
                 {
                     "name": "Drag",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "f679d95a-bdbd-46f7-aaa8-4081ea1eb0c3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "0fd5d7ca-b2a7-47ab-a805-f8bc792ba4db",
+                    "id": "bc4795fe-8f16-4d97-ad02-66b10d2a6867",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
