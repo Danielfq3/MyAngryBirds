@@ -87,6 +87,7 @@ public class CameraMovement : MonoBehaviour
 
         void Zoom(float increment)
         {
+            return;
             gameObject.GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, minZoom, maxZoom);
         }
 
