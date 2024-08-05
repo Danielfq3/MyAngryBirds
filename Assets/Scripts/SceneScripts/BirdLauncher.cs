@@ -41,10 +41,12 @@ public class BirdLauncher : MonoBehaviour
         if (isDragging)
         {
             Drag();
+            ChangeStringPosition();
         }
         if (Input.GetMouseButtonUp(0) && isDragging && CalculateDragVector().magnitude > 0.2)
         {
             Release();
+            ResetStringPosition();
         }
     }
 
@@ -65,6 +67,17 @@ public class BirdLauncher : MonoBehaviour
         OnBirdStartLaunching();
 
     }
+
+    private void ChangeStringPosition()
+    {
+        gameObject.GetComponent<LineRenderer>().SetPosition(1, -(CalculateDragVector() * 1.6f - new Vector3(0, 1.20f, 0.5f)));
+    }
+
+    private void ResetStringPosition()
+    {
+        gameObject.GetComponent<LineRenderer>().SetPosition(1, new Vector3(0, 1.27f, 0.5f));
+    }
+    
     private IEnumerator ExecuteAfterTime(float time)
     {
         yield return new WaitForSeconds(time);

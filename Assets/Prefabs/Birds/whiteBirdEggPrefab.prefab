@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.9743688, b: 0.8443396, a: 1}
   m_FlipX: 0
@@ -161,6 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92691e89051454748b338ad4373f2d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteCracked: {fileID: 0}
+  _spriteFlying: {fileID: 0}
   _DestroyMultiplier: 5
   _explosionRadius: 5
   _explosionForce: 1

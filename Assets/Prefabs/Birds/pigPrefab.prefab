@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 39386bd4cc6c8c141be6d94e4c463324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -167,6 +167,7 @@ MonoBehaviour:
   BirdDamageMultiplier: 1
   _maxHealth: 3
   _breakForce: 1
+  _currentHealth: 0
 --- !u!114 &3005166592277955697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,3 +180,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a51eec72902664db923d28e86f91a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spriteCracked1: {fileID: 0}
+  _spriteCracked2: {fileID: 0}
