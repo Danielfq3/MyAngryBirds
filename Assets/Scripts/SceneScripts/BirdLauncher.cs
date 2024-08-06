@@ -2,10 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BirdLauncher : MonoBehaviour
 {
+    private const float SlingTension = 0.3f;
     public GameObject birdPrefab;
     public Transform launchPoint;
     public float launchForce = 500f;
@@ -20,6 +22,14 @@ public class BirdLauncher : MonoBehaviour
     [SerializeField]
     float launchRadius = 3;
 
+    [SerializeField]
+    private LineRenderer _sling1;
+    [SerializeField]
+    private LineRenderer _sling2;
+
+
+    private Vector3 _slingOffset;
+
     private enum State
     {
         ReadyToLaunch,
@@ -31,7 +41,13 @@ public class BirdLauncher : MonoBehaviour
     public event Action OnBirdLaunched = delegate { };
     public event Action OnBirdStartLaunching = delegate { };
 
-    void Update()
+
+    private void Awake()
+    {
+        _slingOffset = GetSlingOffset();
+    }
+
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0) && ((Vector2)(Camera.main.ScreenToWorldPoint(Input.mousePosition) - launchPoint.position)).magnitude < launchRadius && _launchState == State.ReadyToLaunch)
         {
@@ -41,7 +57,7 @@ public class BirdLauncher : MonoBehaviour
         if (isDragging)
         {
             Drag();
-            ChangeStringPosition();
+            ChangeSlingPosition();
         }
         if (Input.GetMouseButtonUp(0) && isDragging && CalculateDragVector().magnitude > 0.2)
         {
@@ -68,14 +84,20 @@ public class BirdLauncher : MonoBehaviour
 
     }
 
-    private void ChangeStringPosition()
+    private Vector3 GetSlingOffset() => _sling1.GetPosition(0);
+
+    private void ChangeSlingPosition()
     {
-        gameObject.GetComponent<LineRenderer>().SetPosition(1, -(CalculateDragVector() * 1.6f - new Vector3(0, 1.20f, 0.5f)));
+        //new Vector3(0, 1.20f, 0.5f);
+        _sling1.SetPosition(0, -(CalculateDragVector() + CalculateDragVector().normalized * SlingTension - _slingOffset));
+        _sling2.SetPosition(0, -(CalculateDragVector() + CalculateDragVector().normalized * SlingTension - _slingOffset));
     }
 
     private void ResetStringPosition()
     {
-        gameObject.GetComponent<LineRenderer>().SetPosition(1, new Vector3(0, 1.27f, 0.5f));
+        _sling1.SetPosition(0, _slingOffset);
+        _sling2.SetPosition(0, _slingOffset);
+
     }
     
     private IEnumerator ExecuteAfterTime(float time)
@@ -105,6 +127,7 @@ public class BirdLauncher : MonoBehaviour
     {
         Vector3 dragVector = CalculateDragVector();
         currentBird.transform.position = launchPoint.position - dragVector;
+        currentBird.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, CalculateDragRotation()));
     }
 
     private Vector3 CalculateDragVector()
@@ -116,6 +139,19 @@ public class BirdLauncher : MonoBehaviour
         }
 
         return dragVector;
+    }
+
+    private float CalculateDragRotation()
+    {
+        Vector2 dragVector = CalculateDragVector();
+        float dragAngle = -Vector2.SignedAngle(dragVector, new Vector2(1, 0));
+        print(dragVector);
+/*        if (dragVector.x < 0)
+        {
+            dragAngle += 360;
+        }*/
+        print(dragAngle);
+        return dragAngle;
     }
 
     void Release()
