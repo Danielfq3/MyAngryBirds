@@ -23,13 +23,19 @@ public class HealthForObjects : MonoBehaviour
     private int _currentHealth;
 
     public event Action<int> OnHealthChanged = delegate { };
+
     private ScoreCounter FindScoreCounterObject()
     {
         return FindObjectOfType<ScoreCounter>(includeInactive:true);
     }
 
     public static Action OnObjectDestroyed = delegate { };
-    private int previousValue;
+    private int _previousValue;
+
+    private void Awake()
+    {
+        _previousValue = _currentHealth;
+    }
 
     public void SubtractHealth(int health) => _currentHealth -= health;
 
@@ -63,20 +69,21 @@ public class HealthForObjects : MonoBehaviour
             OnObjectDestroyed();
         }
     }
+
     private void Update()
     {
-        if (_currentHealth != previousValue)
+        if (_currentHealth != _previousValue)
         {
             OnHealthChanged(_currentHealth);
             //command type here
             // Execute additional code here
             // ...
-            previousValue = _currentHealth; // Update the previous value
+            _previousValue = _currentHealth; // Update the previous value
         }
 
-        if (_currentHealth <= 0f)
+        if (_currentHealth <= 0)
         {
-            FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
+            //FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
             Destroy(gameObject);
             OnObjectDestroyed();
         }

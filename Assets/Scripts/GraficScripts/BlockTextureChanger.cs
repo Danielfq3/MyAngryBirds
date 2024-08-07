@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class HealthIndicator : MonoBehaviour
+public class BlockTextureChanger : MonoBehaviour
 {
     [SerializeField]
-    private Sprite _spriteCracked1;
+    private Sprite _spriteCracked;
+
     [SerializeField]
-    private Sprite _spriteCracked2;
+    private int _halfHealth;
 
     private HealthForObjects _healthForObjects;
 
@@ -31,14 +32,9 @@ public class HealthIndicator : MonoBehaviour
 
     private void OnHealthChanged(int currentHealth)
     {
-        if (currentHealth == 2)
+        if (currentHealth < _halfHealth)
         {
-            GetComponent<SpriteRenderer>().sprite = _spriteCracked1;
-        }
-        
-        if (currentHealth == 1)
-        {
-            GetComponent<SpriteRenderer>().sprite = _spriteCracked2;
+            GetComponent<SpriteRenderer>().sprite = _spriteCracked;
         }
     }
 }

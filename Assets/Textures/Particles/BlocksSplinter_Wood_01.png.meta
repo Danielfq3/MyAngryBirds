@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c351bd68ac0ef241ad534213109a53b
+guid: c53874cf1d5d2e54585ad787b6e682c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BlocksSplinter_Wood_01_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 142
+        width: 84
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e902d0bcff40be47a2e7803b6febd11
+      internalID: 1180709593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlocksSplinter_Wood_01_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 114
+        width: 78
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e70ffa89a369844a627e7a9b0d73cf
+      internalID: 1942612315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlocksSplinter_Wood_01_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 15
+        width: 51
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2183a94515d8cc4469891ee0f21d99f3
+      internalID: 428631290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlocksSplinter_Wood_01_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 38
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ef9a96bfedb74439058e9cfc974947
+      internalID: 246238325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlocksSplinter_Wood_01_0: 1180709593
+      BlocksSplinter_Wood_01_1: 1942612315
+      BlocksSplinter_Wood_01_2: 428631290
+      BlocksSplinter_Wood_01_3: 246238325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
