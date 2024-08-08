@@ -51,6 +51,10 @@ public class HealthForObjects : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "Bumper")
+        {
+            return;
+        }
         if (collision.relativeVelocity.magnitude * collision.otherRigidbody.mass / _breakForceMultiplier <= _breakForce)
         {
             return;
