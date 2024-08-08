@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,5194 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cobalt_Main_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1932
+        width: 987
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df07a80b35ff07408991175e570a99c
+      internalID: 352986288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2394
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d21175915cfdbc4fbb0724c1533f342
+      internalID: 1045406417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2394
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d97de957569114fb2f653179f23bf1
+      internalID: -483201739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_3
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2366
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70802018417bb4ba39a4b0a8395ef7
+      internalID: 1669772982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_4
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2387
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c128d23e655d9b44487e57eef2a9828c
+      internalID: 1668396753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_5
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 2387
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a8a468587f9db44a9e49ac2373d4ee
+      internalID: -272092077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8177d63db129f342ab37f8572c6184b
+      internalID: -194292945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_7
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2380
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c29d021dd656041a64bb944b5acba1
+      internalID: -1404478069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_8
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1953
+        width: 557
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a0ad365999a2745893e5667d5759ff
+      internalID: -2008447894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_9
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2352
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeee391fc9bd184faf81d422f9ed928
+      internalID: -1947634399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_10
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 2223
+        width: 456
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c614233798af046a44634cb8d1c0c8
+      internalID: -2043349236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_11
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 2345
+        width: 157
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994181ba9745ebd40b9a8ec38be31247
+      internalID: -383422412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_12
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2359
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f5212b418177144a2bd2798b3d9dea
+      internalID: -1307684452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_13
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 2330
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e237224829b0b047969d848823184c6
+      internalID: -492887598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_14
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2343
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e72932af8fc974294c4debcd8387bd
+      internalID: 1221314398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_15
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2337
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6880c62ad261794cad3f1fefc6487ae
+      internalID: 460742070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_16
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2295
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70f8f5a7d415f5469cbb1a849079018
+      internalID: -706621601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_17
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 2293
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d511f4814de20a842a43cf5d946eaab5
+      internalID: 497572582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_18
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2042
+        width: 293
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abadda2c38fff3642ab41c90c14b807b
+      internalID: -642550513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2280
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20765e4c8107fd4d8035c43db777842
+      internalID: 1733862911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_20
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 2252
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d920a05325a4844193237396d3ac0c0
+      internalID: -1574689115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_21
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2265
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbd3b0dccb74e244a5540de7180f8ec
+      internalID: 1846796447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_22
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 2254
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c19afca2d327b46bb99b59a8b3919a
+      internalID: 1079714099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_23
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 2252
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d3f3320ee1d074a84fd17debf2795e
+      internalID: 1946621437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_24
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2216
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3562d429210767443bf352f693733cd3
+      internalID: -2127575533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_25
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 2245
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83a0658983b5dc4c97d82e4c255a2c9
+      internalID: -898324657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_26
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 2223
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9f67c5852c6da46a8906755dab2cd8
+      internalID: -1800658297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_27
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2209
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6623cf31108b4d84784e17578ce4ad47
+      internalID: 860793308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_28
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 2216
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea450ad0ced2a54191549d6b199cac4
+      internalID: 1157403729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_29
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7fd26a61e952743baa333c71210b9b
+      internalID: -1163177579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_30
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1945
+        width: 328
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d061c8895bea1640906caba7bd12847
+      internalID: -894059973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_31
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 2166
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526c1e497b7e635409154b2b2f805dc4
+      internalID: -168533500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_32
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 2166
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867848d110368fe4aa440a7f5887b3b4
+      internalID: -1406185962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_33
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 2152
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270a02ddedc8f84cb6ad8f7a35ce74e
+      internalID: 494798089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_34
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2124
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f58612b019773408d37bb710e36e05
+      internalID: -1534850295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_35
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2131
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0fb3c6c6eaffa45a208ec9c6c96c90
+      internalID: 1061553719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_36
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2052
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f821bcab41bb2941a0e0e6b973a7e39
+      internalID: -1794388923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_37
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2059
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa410c624a48e4e4fba6117679d370ec
+      internalID: -387623613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_38
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 2038
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285f99844649de24482f89aabf1dd7ce
+      internalID: -1982877439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_39
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 2038
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7f59ffc14d05449b83812768c064e1
+      internalID: 580783474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_40
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2031
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c282b405a7408419af0dfc4509b4fc
+      internalID: -1223373010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_41
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 1575
+        width: 410
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53204cb48148cdd4e8b789ac2a19723c
+      internalID: 2024072317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_42
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 2031
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b59d09b1e8eb684f9e64e8b8954d734
+      internalID: -737102168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_43
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 2031
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42075d35ba1651a4d989800a8da8b2fc
+      internalID: 242263630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_44
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629b4aa325db65148877cb97dcde3855
+      internalID: 1101907449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_45
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2010
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021a9674a1bcd954ab2df6f5b8f918b0
+      internalID: 2011439779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_46
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1995
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191916e8143768f419e315ca6c7ab216
+      internalID: 1355047199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1924
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca0f43cd0495344f900ac8ed8a6a957
+      internalID: 860981270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_48
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1953
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927cb27c932545e42a5096889b74f790
+      internalID: 502627903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_49
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1938
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd5f7350eedf248a868db89cb7a8ce
+      internalID: 1054802325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_50
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1945
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b693b6f65ead447bd66ae2af4c9a65
+      internalID: -332262047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_51
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1945
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c23708a1a43fde4abc35c25278141c6
+      internalID: -1845006991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_52
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1945
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a814492369d08e42b385028c2e5dc85
+      internalID: -557924904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_53
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1945
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606d492e43bf0774d80c784e6d8900e3
+      internalID: 1432544741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_54
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1938
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04f11f6dc43ba444a1f67f72d9a7723
+      internalID: -270564684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_55
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1938
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746736f2a6a50914cb6d698ef0ee979b
+      internalID: -673765118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_56
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1924
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315fd00eb8097e84bbf8968c49da29f9
+      internalID: 536408607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_57
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1931
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ab6ef306017d147b1900eb3555d7d7
+      internalID: 1696756720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_58
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1638
+        width: 546
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce00d30676b19f49987a7f52bffd06b
+      internalID: 1595360596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_59
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1931
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168456cb5f760f24ba2ef5369e75cf4f
+      internalID: -707243874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_60
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1924
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d75a3b58c65d4a876d7d1a2887b8f
+      internalID: 1458773786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_61
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1924
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef6569546bf79a45a4d13b3ec2b97ca
+      internalID: 1835118347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_62
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1917
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb303a0e6e1c0e141a9447daa14f849c
+      internalID: 2045587726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_63
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1917
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2031b6a3014ad4284928faaf9df131
+      internalID: 949134961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_64
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1917
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289ca50d2ef3b5645bdaa8ae625bd5fd
+      internalID: -1539859601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_65
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1910
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568c3c6e15d8d594d8597e06e9ade8d7
+      internalID: -1121850489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_66
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1881
+        width: 7
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897072a32a8902d45a9e40662c35901f
+      internalID: 1782712777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_67
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1910
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8a19a03dec21a4c9fae4a075192cf1
+      internalID: -958292572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_68
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1910
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84873fbd04e4e2e439d0d5f375215fa6
+      internalID: -823986104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_69
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1903
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a865fb1d0b3ba84b9fb0e9389aede9c
+      internalID: 2107931487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_70
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1903
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e8c6a4721fb4e499d11e4ac92d882a
+      internalID: 1545344203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_71
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1903
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15fdc2be4461da43b615c784d7a7fab
+      internalID: 626671564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_72
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1504
+        width: 465
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64389fdd340f76547b4e4a217826bf81
+      internalID: -396078271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_73
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1511
+        width: 536
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a2cd48bf9d59741ac47e2ba89249e2
+      internalID: 1558625710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_74
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1888
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087afc9a21c22dd4a9d8d283205d7cad
+      internalID: -1494419662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_75
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1874
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ddf862682278a4eb148ad6edec7795
+      internalID: 1902589456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_76
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1853
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb0f89c23e63e444ac9f601a6802613
+      internalID: 900306292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_77
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1807
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1f5ae4cc8876549b11469b0c113823
+      internalID: -1180083851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_78
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1833
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14dd752768de28419ea22056997b4db
+      internalID: -636617753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_79
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1831
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e31d4527e7136945a2b88c299b3ba66
+      internalID: -1745235329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_80
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1818
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488f8b806ef15184b8f2b809cb0933bd
+      internalID: -44513775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_81
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1803
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ebff883c4db2748bdd0a555c159ec8
+      internalID: 1662646437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_82
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1803
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe53dff51ba0e3444b96f07f9cc2cc37
+      internalID: -1582188017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_83
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1812
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19dc631b2395e44d96532123904f59a
+      internalID: -176712099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_84
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1789
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabdeadb496e49647a3f929b3ec9a0e2
+      internalID: 1816724864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_85
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1761
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae98283a4dfbc764d895ba8ee05a360e
+      internalID: -1862527975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_86
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1774
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28232a14380050e4a85d126cf1d6c0f4
+      internalID: 1618513820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_87
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1774
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6015114945d54a4429a8e59cbee535e8
+      internalID: -1552749525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_88
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1774
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f5e6b855de17a4d83ec004e62618cb
+      internalID: 40318242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_89
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1732
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c7c653486526b46b42df342c3542ca
+      internalID: -844757000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_90
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1760
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e917649c0417c644b06fbc747bbbd41
+      internalID: -690830071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_91
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 1760
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32060dec87473e74ea268b769853dfb7
+      internalID: -282876816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_92
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1732
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103681727103f7b4c9c28b43a7968a4d
+      internalID: 2133373836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_93
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1717
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5705bf6197d21b409c4f0dc83ed8c13
+      internalID: -427053689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_94
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1710
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f6a8590a73f454d97690a5eb293725
+      internalID: 1456681832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_95
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1675
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bf1c25bdadb2143871a2d2e28f03b9
+      internalID: 1635188457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_96
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1675
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9a6e1d7371adf4cb8c8e5cc98a39fc
+      internalID: -257438659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_97
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1669
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1128370342232974a884173bbabd1715
+      internalID: 942362184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_98
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1637
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4a8fc9ea08e664e84f2fb9f47a91e4
+      internalID: -1719475441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_99
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1637
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ac78c3cf7bade4a864439998c9b1d1
+      internalID: 670320323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_100
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1632
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6d92089e138c4f9cb2fca49fcc6a9
+      internalID: 1534807129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_101
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1632
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c0ca2740ab1714ca6755ef89dd964b
+      internalID: -1885122635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_102
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1618
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1e32f4273e715418f28b9dde9d6207
+      internalID: -315618635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_103
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1618
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba821e2a66b766340a28866b2e95b915
+      internalID: 1924128243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_104
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1611
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69e645656982274893f73280fa599e6
+      internalID: 391967844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_105
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1561
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e825d3d49526448b07f87e47691581
+      internalID: -2135297730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_106
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1589
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc759ac8679d07544816111f039ef7ec
+      internalID: 1964690525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_107
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1595
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6219a39dece5b0147bd0092d7d02fc8b
+      internalID: 1694773884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_108
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 1582
+        width: 4
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d380566fc4c17d948a6e7195eb99912c
+      internalID: -577606245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_109
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1589
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30526ec567fb254ebdc3b24e400c160
+      internalID: 428998276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_110
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1575
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b68aafb8876114897605b0b90cb353
+      internalID: -1413883537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_111
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1568
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d0bc950907e1e4b831fa4f09637ff6
+      internalID: -1268266182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_112
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1568
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59c8f7b349aee947aae85892203cb72
+      internalID: -1889056944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_113
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 1575
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c8be4a27616904990b126c8f6808b0
+      internalID: 1122659814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_114
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1561
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63640977a7f759641ba58cebaecb6027
+      internalID: 815084267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_115
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1314
+        width: 508
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68559a65891998c449d590dc3af5ceac
+      internalID: -687844383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_116
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1539
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b841f1bf4488d4e9955a15c6d03b89
+      internalID: -420747716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_117
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1532
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425beaf7da63603448a06fa88c1930d7
+      internalID: -8399899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_118
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1532
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e90eaa98a6ff418233328165cfc66
+      internalID: -1387071594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_119
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 1525
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629fde1cf0bebb542b8446b7c8afa626
+      internalID: -1462222369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_120
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1497
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f53b2de4b3a57f4b93f59c9b29dfdf7
+      internalID: 996891043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_121
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1525
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85371dc07233f5642ab68aafdca17c68
+      internalID: -1052372112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_122
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1489
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb48ecd15b7b974f800da06e82f697f
+      internalID: 1427241936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_123
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1504
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6b68c73aebead42954f3ef357a58a6
+      internalID: 1132876506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_124
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1504
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96da59f4026796948957ab756edebd4f
+      internalID: 152650291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_125
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1504
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f0b7467e80509459ea13a9accec5fb
+      internalID: -513578283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_126
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1275
+        width: 561
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f58afd1b23c5734ab1e17d349bb5e21
+      internalID: -1980838648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_127
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1489
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39829c62b6839643b67bc7d41699232
+      internalID: -593180733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_128
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1482
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00d3844c6cd8ec41be6f3ae805f6f71
+      internalID: -1198743262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_129
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1475
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0f7add5f48ee442ab7cef5077cec39
+      internalID: 925404796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_130
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1475
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6398d57c7c2b4b4cb73c3aac63aacb5
+      internalID: 364604574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_131
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1468
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea2dfbf196623c4db5027b4686ec235
+      internalID: 1644208484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1468
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b465e50fa37fcde40836bcdf89fed4ea
+      internalID: -473888475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_134
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1461
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcff24a62b1ef5648b177694e262b16a
+      internalID: -477971025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_135
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1461
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a59db5ed5e92f2478517131a6e7ec80
+      internalID: -1442918981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_136
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1454
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58872d5a4991104498bc9ca7976d517b
+      internalID: 39426689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_137
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1454
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1203631919e8f23448f35c04c8cb20b1
+      internalID: -1904607260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_138
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1327
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f98bf16be7c19644bb0f218551e46c5
+      internalID: -1232041289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_139
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1325
+        width: 112
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7a9d955f5559c4c89bff5f025b40a6
+      internalID: 1828049184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_140
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1311
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63089660d09ae5a41868806664af5e6f
+      internalID: -1215064744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_141
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1326
+        width: 115
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7559648efdda54cb4e5e1179de0901
+      internalID: 2020325184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_142
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 1418
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52355438033250f40ad2ec56d7c10915
+      internalID: 193904612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_143
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1383
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b25a48f15b21ce4db73eadd0521c1bd
+      internalID: 672860152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_144
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 1375
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6085e281e355017449dcc6d208f5591a
+      internalID: -657482668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_145
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1375
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ed9d844a0b2eb42ae98ce817b343b2
+      internalID: -1651333641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_146
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1368
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1af5cfe2d39c38459cba0860a619495
+      internalID: -249350868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_147
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1368
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17280fa0c479b61429c490a97b9c2b77
+      internalID: -560382508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_148
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1361
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6820ebe9937bb4584340b152866806
+      internalID: 95830831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_149
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1354
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8156e44a5dcd24a863fd018d7e4b65
+      internalID: -1309066998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_150
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1354
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca2f06fed913a34d812d59c4365b4f6
+      internalID: -237555229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_151
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6e74dd4ce68a94d88d34b930770f7d
+      internalID: 1199159697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_152
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbc7513d1528174682b31537ec5a696
+      internalID: 1670961879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_153
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1318
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1b79b0b43791142aafb09e377d42eb
+      internalID: -132996645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_154
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1304
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e470253b0be6e8d46bb98d93a76b86ce
+      internalID: 78375586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_155
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1318
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967776f1c73c1b94aa85880d76e2a850
+      internalID: 1722004052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_156
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1292
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c375a9cbe2da9e4d92131c1ab8f98b7
+      internalID: -1000111608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_157
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1304
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6bfa8b72923584e8f7c174a6ad437e
+      internalID: -1028944971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_158
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1304
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab246c6955d4c4499be16753a3cb523
+      internalID: -1509674833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_159
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1304
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e2556e1475cdb42bafadbc313c7398
+      internalID: 1049705693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_160
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1276
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f68260119b2e343afbc6be081be9ec
+      internalID: -1764697361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_161
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1276
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b798b563f9b3f5142ae294ee80084745
+      internalID: 110186002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_162
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1276
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ea16819596b59499ce56f4ad53f0df
+      internalID: 810266855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_163
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1276
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf02536025093b49a3283addeec0e1a
+      internalID: 498821790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_164
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1290
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b43129f6abfb3247b7d2731aaecab8f
+      internalID: 521135010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_165
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1290
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5154d0bbee9314294f469be2422222
+      internalID: 781863300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_166
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1290
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9cc26423d1cc843b053a8cdef0253b
+      internalID: -1852766585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_167
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1276
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c031634b888d8340ae751706b230c32
+      internalID: -1191122675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_168
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1283
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7b3f3b0ad81f64fb01fc2c78fba827
+      internalID: 322727247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_169
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1261
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23c28613547ae642a114e56fe18c693
+      internalID: 1806336377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_170
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1261
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460cc132bbe40b64c94361426b34deb3
+      internalID: -197047099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_171
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1261
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3962ad5d380e844b03e506500b5bb5
+      internalID: -170364608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_172
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1254
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406a1b6e00e3d5e4a96ce93d16c8d697
+      internalID: 577808455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_173
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1254
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc982d8ea52ba234883fd3782c8b793c
+      internalID: -1801018676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_174
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1247
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299e42f3e9451f243af01b7b2c3c872f
+      internalID: -1702811303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_175
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1247
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7883c510e80794a975ddbab2dd5842
+      internalID: -1976832874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_176
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1254
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a8d0887cbb75043881d0d1823e48f5
+      internalID: -937489210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_177
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1254
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f283d381d41d544afb07437cdaccc8
+      internalID: 610812880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_178
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1233
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c496129dd58d34bbc90af22e6a6d2f
+      internalID: 455046998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_179
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1130
+        width: 190
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9154ba22ba638eb4a9d1b650a1fdcac5
+      internalID: 166902662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_180
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1247
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4d90d204c9750458685c6c09d04858
+      internalID: 1755714515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_181
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1247
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56494565da7071f428937ae11562b488
+      internalID: 1537897687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_182
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1247
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587d2e3cb618dee40b45cf1b44220abe
+      internalID: 712567086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_183
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e756b6e6e645db4fb45e93c8fe1152a
+      internalID: 662211923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_184
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303029051f0af0b448d015b4a88b5607
+      internalID: -910938216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_185
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1240
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e22a9ae483f404a801327470812f26
+      internalID: -48822290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_186
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1226
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa0fe13ac965a141bdfce416b9e21dc
+      internalID: 1759360407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_187
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1233
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69a1662583ee9c4cbfc481f802bda0a
+      internalID: 241644622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_188
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 984
+        width: 372
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a643c25efbc0f2478551825ee461258
+      internalID: -404738778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_189
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1054
+        width: 250
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf58adc3b9cc8cb47a31bcf8bfe9c780
+      internalID: -190456537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_190
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1214
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516ccaa1e41b0164aaae2592a4908871
+      internalID: -1486225169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_191
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1197
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e4ca4fddedb2949953752402278243
+      internalID: 1617283293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_192
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1183
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf06dad51286c804e9d9fdfe39fcc726
+      internalID: -1807636309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1190
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7212dc791cbb146abc87f3c102b384
+      internalID: -294936687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_194
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb66329c250c7b479b40c687eaa4585
+      internalID: 1794798382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_195
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88e0caabd2505743bb0af0401fc41b3
+      internalID: 989186274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_196
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1140
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d05ab28549c844aa6829b6ebc06109
+      internalID: 1705724091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_197
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1147
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baba6d11ee780ce4a82ffe8306846bf1
+      internalID: -1394099973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_198
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1133
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6de72228b2cbb419ddabc5f4e9777e
+      internalID: 231880698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_199
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1119
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d595f594ecfe3449bd7837d9070d07
+      internalID: -337933846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_200
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1111
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742129cd263261e46beac5214c0a1186
+      internalID: 1676558771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_201
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1114
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f9f5e9b7dc0e84495350604a053902
+      internalID: 1235532423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_202
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1122
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9dce9fe379a984eaad43a31bec09b4
+      internalID: 203916456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_203
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc948a6aa79257649b3e55dfd432f924
+      internalID: -1256810719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_204
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55842c83fe0cd164387e159c0d559528
+      internalID: -170634703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_205
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1105
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ce889716969754881856fea4c1d4bc
+      internalID: -1320435703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_206
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1090
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fec869ea834a94d868b3e82bad353f
+      internalID: 1278423631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_207
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1097
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010b398c37be1874ba0f0600f6b850ff
+      internalID: -1179454189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_208
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1090
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fcb997122f22c4d87350117c9536c8
+      internalID: -569382033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_209
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1076
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834c09528d9ca704fa4001bf5e4cfeca
+      internalID: 665817734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_210
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1048
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136e27e081ad782498e215afa318380f
+      internalID: 658848178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_211
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 657
+        width: 345
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd0858faa69dcb4f99981b623b5b235
+      internalID: 2128068431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_212
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1019
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b11e5ab2c946a418972ca491f34a54
+      internalID: -318531176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_213
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1033
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c33f4bcc53cdb4492750b3fc3a5b3e
+      internalID: 2113885419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_214
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1026
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2199adad9f05d409126e913c4cb7eb
+      internalID: 13114410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_215
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1026
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca2c30ecc03d042b39215b8b6a859d
+      internalID: -1973852712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_216
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1026
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd5d03561816354b989762fc2ffdc70
+      internalID: -807418941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_217
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1019
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662b361d866c583499c177594353a765
+      internalID: -322528097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_218
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1019
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c251c36248da842a1c81734278a526
+      internalID: 688784213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_219
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1005
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c90d161621db3e4db884cbd8f2114fa
+      internalID: 276290387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_220
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 998
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdc12f9318f7f14d807f3ce6e45e470
+      internalID: 681351593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_221
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1005
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4732ee7deb7ef5b43b325a27fd6716ab
+      internalID: 1324439794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_222
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 998
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7ce1e1ea0383a4eb3494ce041cb9de
+      internalID: 1861505312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_223
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 983
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf661f800fa09e84aa2d6e4fc8b65f02
+      internalID: 1755215330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_224
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 991
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c77aeb15161d349943e90d16689f72
+      internalID: -1537627035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_225
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 692
+        width: 300
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c626691aacdfa49accddbe65b612cb
+      internalID: 618802618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_226
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 976
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6290bf0fd74eb4e9021da02d167f64
+      internalID: -488097262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_227
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 983
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ad9f4aed821da49b5f4f9e13171e34
+      internalID: -1078923798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_228
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 969
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238f5715b0405b1478dee13a2c121d16
+      internalID: 761098176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_229
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 941
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91acbaad84f068b45a1a337e23d8def9
+      internalID: 1383873454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_230
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 955
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2d374b3e6ee8843801860fc0635c8f
+      internalID: -824787556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_231
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 955
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bcf53a533647f4d9ce64e18a086baa
+      internalID: 983373787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_232
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 948
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1c4d4d64ebbaa4fa50983b5ade37b1
+      internalID: -1542763417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_233
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 898
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3af5e48acd6bce499a9f479ee0309b3
+      internalID: 472083682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_234
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 905
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d316a3fc46a131f48b79cb57cce72444
+      internalID: -1077635039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_235
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 634
+        width: 357
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5d01e6a569f7d42a7bb72371fe4d9e
+      internalID: -563540234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_236
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 877
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569150d71a4fe244f8126bfe4f9991d2
+      internalID: -1658072009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_237
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 884
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea25111b559cf7e4995e385173cca3d2
+      internalID: -542857583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_238
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 827
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc5824e3b0a03f4a8f2e158265cdf44
+      internalID: -1592512973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_239
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 791
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be95cb7f6e2ef4098ec33b0e9254e9
+      internalID: 1977156439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_240
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 777
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7af5ab88b621948b8bbea39d2dc71a
+      internalID: 880815143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_241
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 691
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35291ec808c15564d81a4e1f0badf832
+      internalID: 275720126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_242
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 677
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e77b2b45a07ca547ae13c51bb6fb3ee
+      internalID: -1735557069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_243
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 677
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2a6c7fa88bbac4cbc87fa99b2f2ed7
+      internalID: -816872406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_244
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 663
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567dcf3b83990f845ad986c2cc685725
+      internalID: 145455020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_245
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 656
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b869532bbe647144a996e59c05d8f3f
+      internalID: -376528138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_246
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 651
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb86c9d8536d26b40b5e72d99b17fb3b
+      internalID: -1330095000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cobalt_Main_247
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 641
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92878b8c1f9a2e42b5340879d741d11
+      internalID: 724052744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +5306,255 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cobalt_Main_0: 352986288
+      Cobalt_Main_1: 1045406417
+      Cobalt_Main_10: -2043349236
+      Cobalt_Main_100: 1534807129
+      Cobalt_Main_101: -1885122635
+      Cobalt_Main_102: -315618635
+      Cobalt_Main_103: 1924128243
+      Cobalt_Main_104: 391967844
+      Cobalt_Main_105: -2135297730
+      Cobalt_Main_106: 1964690525
+      Cobalt_Main_107: 1694773884
+      Cobalt_Main_108: -577606245
+      Cobalt_Main_109: 428998276
+      Cobalt_Main_11: -383422412
+      Cobalt_Main_110: -1413883537
+      Cobalt_Main_111: -1268266182
+      Cobalt_Main_112: -1889056944
+      Cobalt_Main_113: 1122659814
+      Cobalt_Main_114: 815084267
+      Cobalt_Main_115: -687844383
+      Cobalt_Main_116: -420747716
+      Cobalt_Main_117: -8399899
+      Cobalt_Main_118: -1387071594
+      Cobalt_Main_119: -1462222369
+      Cobalt_Main_12: -1307684452
+      Cobalt_Main_120: 996891043
+      Cobalt_Main_121: -1052372112
+      Cobalt_Main_122: 1427241936
+      Cobalt_Main_123: 1132876506
+      Cobalt_Main_124: 152650291
+      Cobalt_Main_125: -513578283
+      Cobalt_Main_126: -1980838648
+      Cobalt_Main_127: -593180733
+      Cobalt_Main_128: -1198743262
+      Cobalt_Main_129: 925404796
+      Cobalt_Main_13: -492887598
+      Cobalt_Main_130: 364604574
+      Cobalt_Main_131: 1644208484
+      Cobalt_Main_132: -419710318
+      Cobalt_Main_133: -473888475
+      Cobalt_Main_134: -477971025
+      Cobalt_Main_135: -1442918981
+      Cobalt_Main_136: 39426689
+      Cobalt_Main_137: -1904607260
+      Cobalt_Main_138: -1232041289
+      Cobalt_Main_139: 1828049184
+      Cobalt_Main_14: 1221314398
+      Cobalt_Main_140: -1215064744
+      Cobalt_Main_141: 2020325184
+      Cobalt_Main_142: 193904612
+      Cobalt_Main_143: 672860152
+      Cobalt_Main_144: -657482668
+      Cobalt_Main_145: -1651333641
+      Cobalt_Main_146: -249350868
+      Cobalt_Main_147: -560382508
+      Cobalt_Main_148: 95830831
+      Cobalt_Main_149: -1309066998
+      Cobalt_Main_15: 460742070
+      Cobalt_Main_150: -237555229
+      Cobalt_Main_151: 1199159697
+      Cobalt_Main_152: 1670961879
+      Cobalt_Main_153: -132996645
+      Cobalt_Main_154: 78375586
+      Cobalt_Main_155: 1722004052
+      Cobalt_Main_156: -1000111608
+      Cobalt_Main_157: -1028944971
+      Cobalt_Main_158: -1509674833
+      Cobalt_Main_159: 1049705693
+      Cobalt_Main_16: -706621601
+      Cobalt_Main_160: -1764697361
+      Cobalt_Main_161: 110186002
+      Cobalt_Main_162: 810266855
+      Cobalt_Main_163: 498821790
+      Cobalt_Main_164: 521135010
+      Cobalt_Main_165: 781863300
+      Cobalt_Main_166: -1852766585
+      Cobalt_Main_167: -1191122675
+      Cobalt_Main_168: 322727247
+      Cobalt_Main_169: 1806336377
+      Cobalt_Main_17: 497572582
+      Cobalt_Main_170: -197047099
+      Cobalt_Main_171: -170364608
+      Cobalt_Main_172: 577808455
+      Cobalt_Main_173: -1801018676
+      Cobalt_Main_174: -1702811303
+      Cobalt_Main_175: -1976832874
+      Cobalt_Main_176: -937489210
+      Cobalt_Main_177: 610812880
+      Cobalt_Main_178: 455046998
+      Cobalt_Main_179: 166902662
+      Cobalt_Main_18: -642550513
+      Cobalt_Main_180: 1755714515
+      Cobalt_Main_181: 1537897687
+      Cobalt_Main_182: 712567086
+      Cobalt_Main_183: 662211923
+      Cobalt_Main_184: -910938216
+      Cobalt_Main_185: -48822290
+      Cobalt_Main_186: 1759360407
+      Cobalt_Main_187: 241644622
+      Cobalt_Main_188: -404738778
+      Cobalt_Main_189: -190456537
+      Cobalt_Main_19: 1733862911
+      Cobalt_Main_190: -1486225169
+      Cobalt_Main_191: 1617283293
+      Cobalt_Main_192: -1807636309
+      Cobalt_Main_193: -294936687
+      Cobalt_Main_194: 1794798382
+      Cobalt_Main_195: 989186274
+      Cobalt_Main_196: 1705724091
+      Cobalt_Main_197: -1394099973
+      Cobalt_Main_198: 231880698
+      Cobalt_Main_199: -337933846
+      Cobalt_Main_2: -483201739
+      Cobalt_Main_20: -1574689115
+      Cobalt_Main_200: 1676558771
+      Cobalt_Main_201: 1235532423
+      Cobalt_Main_202: 203916456
+      Cobalt_Main_203: -1256810719
+      Cobalt_Main_204: -170634703
+      Cobalt_Main_205: -1320435703
+      Cobalt_Main_206: 1278423631
+      Cobalt_Main_207: -1179454189
+      Cobalt_Main_208: -569382033
+      Cobalt_Main_209: 665817734
+      Cobalt_Main_21: 1846796447
+      Cobalt_Main_210: 658848178
+      Cobalt_Main_211: 2128068431
+      Cobalt_Main_212: -318531176
+      Cobalt_Main_213: 2113885419
+      Cobalt_Main_214: 13114410
+      Cobalt_Main_215: -1973852712
+      Cobalt_Main_216: -807418941
+      Cobalt_Main_217: -322528097
+      Cobalt_Main_218: 688784213
+      Cobalt_Main_219: 276290387
+      Cobalt_Main_22: 1079714099
+      Cobalt_Main_220: 681351593
+      Cobalt_Main_221: 1324439794
+      Cobalt_Main_222: 1861505312
+      Cobalt_Main_223: 1755215330
+      Cobalt_Main_224: -1537627035
+      Cobalt_Main_225: 618802618
+      Cobalt_Main_226: -488097262
+      Cobalt_Main_227: -1078923798
+      Cobalt_Main_228: 761098176
+      Cobalt_Main_229: 1383873454
+      Cobalt_Main_23: 1946621437
+      Cobalt_Main_230: -824787556
+      Cobalt_Main_231: 983373787
+      Cobalt_Main_232: -1542763417
+      Cobalt_Main_233: 472083682
+      Cobalt_Main_234: -1077635039
+      Cobalt_Main_235: -563540234
+      Cobalt_Main_236: -1658072009
+      Cobalt_Main_237: -542857583
+      Cobalt_Main_238: -1592512973
+      Cobalt_Main_239: 1977156439
+      Cobalt_Main_24: -2127575533
+      Cobalt_Main_240: 880815143
+      Cobalt_Main_241: 275720126
+      Cobalt_Main_242: -1735557069
+      Cobalt_Main_243: -816872406
+      Cobalt_Main_244: 145455020
+      Cobalt_Main_245: -376528138
+      Cobalt_Main_246: -1330095000
+      Cobalt_Main_247: 724052744
+      Cobalt_Main_25: -898324657
+      Cobalt_Main_26: -1800658297
+      Cobalt_Main_27: 860793308
+      Cobalt_Main_28: 1157403729
+      Cobalt_Main_29: -1163177579
+      Cobalt_Main_3: 1669772982
+      Cobalt_Main_30: -894059973
+      Cobalt_Main_31: -168533500
+      Cobalt_Main_32: -1406185962
+      Cobalt_Main_33: 494798089
+      Cobalt_Main_34: -1534850295
+      Cobalt_Main_35: 1061553719
+      Cobalt_Main_36: -1794388923
+      Cobalt_Main_37: -387623613
+      Cobalt_Main_38: -1982877439
+      Cobalt_Main_39: 580783474
+      Cobalt_Main_4: 1668396753
+      Cobalt_Main_40: -1223373010
+      Cobalt_Main_41: 2024072317
+      Cobalt_Main_42: -737102168
+      Cobalt_Main_43: 242263630
+      Cobalt_Main_44: 1101907449
+      Cobalt_Main_45: 2011439779
+      Cobalt_Main_46: 1355047199
+      Cobalt_Main_47: 860981270
+      Cobalt_Main_48: 502627903
+      Cobalt_Main_49: 1054802325
+      Cobalt_Main_5: -272092077
+      Cobalt_Main_50: -332262047
+      Cobalt_Main_51: -1845006991
+      Cobalt_Main_52: -557924904
+      Cobalt_Main_53: 1432544741
+      Cobalt_Main_54: -270564684
+      Cobalt_Main_55: -673765118
+      Cobalt_Main_56: 536408607
+      Cobalt_Main_57: 1696756720
+      Cobalt_Main_58: 1595360596
+      Cobalt_Main_59: -707243874
+      Cobalt_Main_6: -194292945
+      Cobalt_Main_60: 1458773786
+      Cobalt_Main_61: 1835118347
+      Cobalt_Main_62: 2045587726
+      Cobalt_Main_63: 949134961
+      Cobalt_Main_64: -1539859601
+      Cobalt_Main_65: -1121850489
+      Cobalt_Main_66: 1782712777
+      Cobalt_Main_67: -958292572
+      Cobalt_Main_68: -823986104
+      Cobalt_Main_69: 2107931487
+      Cobalt_Main_7: -1404478069
+      Cobalt_Main_70: 1545344203
+      Cobalt_Main_71: 626671564
+      Cobalt_Main_72: -396078271
+      Cobalt_Main_73: 1558625710
+      Cobalt_Main_74: -1494419662
+      Cobalt_Main_75: 1902589456
+      Cobalt_Main_76: 900306292
+      Cobalt_Main_77: -1180083851
+      Cobalt_Main_78: -636617753
+      Cobalt_Main_79: -1745235329
+      Cobalt_Main_8: -2008447894
+      Cobalt_Main_80: -44513775
+      Cobalt_Main_81: 1662646437
+      Cobalt_Main_82: -1582188017
+      Cobalt_Main_83: -176712099
+      Cobalt_Main_84: 1816724864
+      Cobalt_Main_85: -1862527975
+      Cobalt_Main_86: 1618513820
+      Cobalt_Main_87: -1552749525
+      Cobalt_Main_88: 40318242
+      Cobalt_Main_89: -844757000
+      Cobalt_Main_9: -1947634399
+      Cobalt_Main_90: -690830071
+      Cobalt_Main_91: -282876816
+      Cobalt_Main_92: 2133373836
+      Cobalt_Main_93: -427053689
+      Cobalt_Main_94: 1456681832
+      Cobalt_Main_95: 1635188457
+      Cobalt_Main_96: -257438659
+      Cobalt_Main_97: 942362184
+      Cobalt_Main_98: -1719475441
+      Cobalt_Main_99: 670320323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
