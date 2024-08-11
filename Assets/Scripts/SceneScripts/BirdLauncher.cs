@@ -18,9 +18,11 @@ public class BirdLauncher : MonoBehaviour
     [SerializeField]
     private float _maxMagnitude;
     [SerializeField]
-    private List<GameObject> _birdsPool;
+    private float _minMagnitude = 0.2f;
     [SerializeField]
     float launchRadius = 3;
+    [SerializeField]
+    private List<GameObject> _birdsPool;
 
     [SerializeField]
     private LineRenderer _sling1;
@@ -29,6 +31,9 @@ public class BirdLauncher : MonoBehaviour
 
 
     private Vector3 _slingOffset;
+
+    public float MaxMagnitudeOfSlingshot => _maxMagnitude;
+    public float MinMagnitudeOfSlingshot => _minMagnitude;
 
     private enum State
     {
@@ -59,7 +64,7 @@ public class BirdLauncher : MonoBehaviour
             Drag();
             ChangeSlingPosition();
         }
-        if (Input.GetMouseButtonUp(0) && isDragging && CalculateDragVector().magnitude > 0.2)
+        if (Input.GetMouseButtonUp(0) && isDragging && CalculateDragVector().magnitude > _minMagnitude)
         {
             Release();
             ResetStringPosition();
@@ -88,7 +93,6 @@ public class BirdLauncher : MonoBehaviour
 
     private void ChangeSlingPosition()
     {
-        //new Vector3(0, 1.20f, 0.5f);
         _sling1.SetPosition(0, -(CalculateDragVector() + CalculateDragVector().normalized * SlingTension - _slingOffset));
         _sling2.SetPosition(0, -(CalculateDragVector() + CalculateDragVector().normalized * SlingTension - _slingOffset));
     }
@@ -130,7 +134,7 @@ public class BirdLauncher : MonoBehaviour
         currentBird.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, CalculateDragRotation()));
     }
 
-    private Vector3 CalculateDragVector()
+    public Vector3 CalculateDragVector()
     {
         Vector3 dragVector = initialPosition - GetMouseWorldPosition();
         if (dragVector.magnitude > _maxMagnitude)
@@ -145,12 +149,6 @@ public class BirdLauncher : MonoBehaviour
     {
         Vector2 dragVector = CalculateDragVector();
         float dragAngle = -Vector2.SignedAngle(dragVector, new Vector2(1, 0));
-        print(dragVector);
-/*        if (dragVector.x < 0)
-        {
-            dragAngle += 360;
-        }*/
-        print(dragAngle);
         return dragAngle;
     }
 
@@ -176,5 +174,15 @@ public class BirdLauncher : MonoBehaviour
     internal bool IsBirdDestroyed()
     {
         return currentBird == null;
+    }
+
+    internal float GetBirdMass()
+    {
+        return currentBird.GetComponent<Rigidbody2D>().mass;
+    }
+
+    internal bool IsDragging()
+    {
+        return isDragging;
     }
 }

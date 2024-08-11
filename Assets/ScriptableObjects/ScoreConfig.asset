@@ -17,3 +17,7 @@ MonoBehaviour:
     score: 100
   - tag: Plank
     score: 25
+  - tag: Rock
+    score: 40
+  - tag: Glass
+    score: 10

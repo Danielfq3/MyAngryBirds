@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 6713134992156215991}
   m_Layer: 0
   m_Name: GlassCircleSmall
-  m_TagString: Untagged
+  m_TagString: Glass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
