@@ -18,9 +18,9 @@ TagManager:
   - Water
   - UI
   - Floating
-  - 
-  - 
-  - 
+  - CameraSortingLayer
+  - FanWind
+  - HIgherLayerForFanWind
   - 
   - 
   - 
@@ -46,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: CameraSortingLayer
+    uniqueID: 707593387
     locked: 0

@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minZoom: 4
-  maxZoom: 12
+  maxZoom: 16
   _virtualCamera: {fileID: 2074605181319594875}
   _lookPoint: {fileID: 3508138614741083743}
   cameraZoomSensitivity: 10
