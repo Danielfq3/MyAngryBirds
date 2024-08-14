@@ -169,6 +169,8 @@ MonoBehaviour:
   _DestroyMultiplier: 7
   _explosionRadius: 5
   _explosionForce: 1
+  _explosionObject: {fileID: 0}
+  _explosionMaterial: {fileID: 2100000, guid: b2f89aa2387b1a3478548123a76fea09, type: 2}
 --- !u!198 &6128689205313744218
 ParticleSystem:
   m_ObjectHideFlags: 0

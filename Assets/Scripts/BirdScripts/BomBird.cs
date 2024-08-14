@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -11,6 +12,10 @@ public class BomBird : Bird
     private float _explosionRadius = 4;
     [SerializeField]
     private int _explosionForce = 10;
+    [SerializeField]
+    private GameObject _explosionObject;
+    [SerializeField]
+    private Material _explosionMaterial;
 
     private HealthForObjects[] FindAllObjects()
     {
@@ -61,6 +66,8 @@ public class BomBird : Bird
                 affectedObject.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomForce);
             }
         }
+        _explosionObject.transform.position = gameObject.transform.position;
+        _explosionObject.SetActive(true);
         Destroy(gameObject);
         BirdDestroyed();
     }
