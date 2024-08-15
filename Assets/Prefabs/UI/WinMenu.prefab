@@ -501,6 +501,7 @@ GameObject:
   - component: {fileID: 7968383283849902508}
   - component: {fileID: 4212039465832338651}
   - component: {fileID: 2963136842133873684}
+  - component: {fileID: 731522518310600222}
   m_Layer: 5
   m_Name: WinMenu
   m_TagString: Untagged
@@ -617,5 +618,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: febe94bc98a1970448c8f211eeb6f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &731522518310600222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733228378065905390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10138934733249740bb0e244ace09b46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

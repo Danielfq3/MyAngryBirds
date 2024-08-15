@@ -30,24 +30,7 @@ public class CameraMovement : MonoBehaviour
 
     private Camera _mainCamera;
 
-    private bool _isDragging;
-
     private void Awake() => _mainCamera = Camera.main;
-
-    public void OnDrag(InputAction.CallbackContext ctx)
-    {
-        if (ctx.started) _origin = GetMousePosition;
-        _isDragging = ctx.performed;
-    }
-
-    private void LateUpdate()
-    {
-        if (!_isDragging) return;
-        _difference = GetMousePosition - transform.position;
-        transform.position = _origin - _difference;
-    }
-
-    private Vector3 GetMousePosition => _mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
     void Zoom(float increment)
     {
@@ -74,7 +57,26 @@ public class CameraMovement : MonoBehaviour
 
             float difference = currentMagnitude - previousMagnitude;
 
-            Zoom(difference / 20 * cameraZoomSensitivity);
+            if (difference < 0)
+            {
+                float previousOrthographicSize = _virtualCamera.m_Lens.OrthographicSize;
+                Zoom(difference / 20 * cameraZoomSensitivity);
+                if (_virtualCamera.m_Lens.OrthographicSize != previousOrthographicSize)
+                {
+                    _difference = _mainCamera.transform.position - _mainCamera.ScreenToWorldPoint(touchMiddlePosition);
+                    _lookPoint.transform.position += _difference / _mainCamera.orthographicSize / 2;
+                }
+            }
+            if (difference > 0)
+            {
+                float previousOrthographicSize = _virtualCamera.m_Lens.OrthographicSize;
+                Zoom(difference / 20 * cameraZoomSensitivity);
+                if (_virtualCamera.m_Lens.OrthographicSize != previousOrthographicSize)
+                {
+                    _difference = _mainCamera.transform.position - _mainCamera.ScreenToWorldPoint(touchMiddlePosition);
+                    _lookPoint.transform.position -= _difference / _mainCamera.orthographicSize / 2;
+                }
+            }
         }
 
         if (Input.mouseScrollDelta.y < 0)
