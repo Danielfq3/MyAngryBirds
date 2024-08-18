@@ -20,7 +20,7 @@ public class BirdLauncher : MonoBehaviour
     [SerializeField]
     private float _minMagnitude = 0.2f;
     [SerializeField]
-    float launchRadius = 3;
+    private float _launchRadius = 3;
     [SerializeField]
     private List<GameObject> _birdsPool;
 
@@ -29,9 +29,11 @@ public class BirdLauncher : MonoBehaviour
     [SerializeField]
     private LineRenderer _sling2;
 
-
     private Vector3 _slingOffset;
 
+    public float LaunchRadius => _launchRadius;
+
+    public Vector2 LaunchPointPosition => launchPoint.position;
     public float MaxMagnitudeOfSlingshot => _maxMagnitude;
     public float MinMagnitudeOfSlingshot => _minMagnitude;
 
@@ -54,7 +56,7 @@ public class BirdLauncher : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && ((Vector2)(Camera.main.ScreenToWorldPoint(Input.mousePosition) - launchPoint.position)).magnitude < launchRadius && _launchState == State.ReadyToLaunch)
+        if (Input.GetMouseButtonDown(0) && ((Vector2)(Camera.main.ScreenToWorldPoint(Input.mousePosition) - launchPoint.position)).magnitude < _launchRadius && _launchState == State.ReadyToLaunch)
         {
             StartDrag();
             _launchState = State.Disabled;
@@ -64,8 +66,14 @@ public class BirdLauncher : MonoBehaviour
             Drag();
             ChangeSlingPosition();
         }
-        if (Input.GetMouseButtonUp(0) && isDragging && CalculateDragVector().magnitude > _minMagnitude)
+        if (Input.GetMouseButtonUp(0) && isDragging)
         {
+            if (CalculateDragVector().magnitude < _minMagnitude)
+            {
+                _launchState = State.ReadyToLaunch;
+                isDragging = false;
+                return;
+            }
             Release();
             ResetStringPosition();
         }

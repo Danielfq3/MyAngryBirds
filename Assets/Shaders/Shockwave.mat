@@ -40,7 +40,7 @@ Material:
     - _MaxSpreadingMultiplier: 10
     - _Size: 0.5
     - _Speed: 1
-    - _Spreading: 1.0124447
+    - _Spreading: 1.0119531
     - _Strenght: 1
     m_Colors: []
   m_BuildTextureStacks: []
