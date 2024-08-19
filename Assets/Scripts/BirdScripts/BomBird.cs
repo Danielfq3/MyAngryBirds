@@ -61,7 +61,6 @@ public class BomBird : Bird
                 float boomForce = _explosionForce * 1000 / boomDirection.sqrMagnitude;
                 float destroyForce = _DestroyMultiplier / boomDirection.magnitude;
                 boomForce *= affectedObject.GetComponent<Rigidbody2D>().mass;
-                print(destroyForce);
                 affectedObject.GetComponent<HealthForObjects>().SubtractHealth((int)destroyForce);
                 affectedObject.GetComponent<Rigidbody2D>().AddForce(boomDirection * boomForce);
             }
