@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6128689205313744218}
   - component: {fileID: 7842305906329240229}
   - component: {fileID: 181026465089356321}
+  - component: {fileID: -5758708542445919187}
   m_Layer: 6
   m_Name: BomBirdPrefab
   m_TagString: Bird
@@ -4981,3 +4982,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _particleSystem: {fileID: 6128689205313744218}
+--- !u!114 &-5758708542445919187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894174954146038501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f458ed366d8df145b0c49134f78d7f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popPrefab: {fileID: 5814788264954583696, guid: ff4ab415bb440974baf79c3152f4fa56, type: 3}
