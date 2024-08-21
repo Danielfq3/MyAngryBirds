@@ -19,7 +19,7 @@ public class Explosion : MonoBehaviour
             return;
         }
         elapsedTime += Time.deltaTime;
-        float spreading = math.lerp(0.1f, 1, elapsedTime / _explosionDuration);
+        float spreading = math.lerp(0, 1, elapsedTime / _explosionDuration);
         _explosionMaterial.SetFloat("_Spreading", spreading);
     }
 }
