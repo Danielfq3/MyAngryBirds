@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -393993715907298497}
   - component: {fileID: 1354580634753008845}
   - component: {fileID: -3701029567245963578}
-  - component: {fileID: 3005166592277955697}
   m_Layer: 6
   m_Name: pigPrefab
   m_TagString: Pig
@@ -168,17 +167,3 @@ MonoBehaviour:
   _maxHealth: 3
   _breakForce: 1
   _currentHealth: 0
---- !u!114 &3005166592277955697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894174954146038501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24a51eec72902664db923d28e86f91a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteCracked1: {fileID: 0}
-  _spriteCracked2: {fileID: 0}

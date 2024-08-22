@@ -2424,6 +2424,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -71.15
       objectReference: {fileID: 0}
+    - target: {fileID: 6000077437869035312, guid: 79b89b9a2bd77bb419f1dcd8c441f59a, type: 3}
+      propertyPath: fanForce
+      value: 450
+      objectReference: {fileID: 0}
     - target: {fileID: 6135159815983383231, guid: 79b89b9a2bd77bb419f1dcd8c441f59a, type: 3}
       propertyPath: m_Name
       value: Fan
