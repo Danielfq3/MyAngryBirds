@@ -1030,10 +1030,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 463655666}
     m_Modifications:
-    - target: {fileID: -393993715907298497, guid: aafd4d95bcf6d3445a62cc53586ad8ab, type: 3}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1894174954146038501, guid: aafd4d95bcf6d3445a62cc53586ad8ab, type: 3}
       propertyPath: m_Name
       value: whiteBirdPrefab
