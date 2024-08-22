@@ -592,6 +592,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f070d9489c7e74e8624508e0dc985e, type: 3}
+--- !u!20 &449282446 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5935860572751748733, guid: 69215f3c53b1b234c90c033f4584daf8, type: 3}
+  m_PrefabInstance: {fileID: 1038684421441168161}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &799351166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7872999527463148653, guid: d5dcb469bb778f042a07829d25c89f07, type: 3}
@@ -1285,6 +1290,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9221809406807702031, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 449282446}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8968641333617040479, guid: 0af12ee1bfee3574ca148b8be9a034f5, type: 3}
@@ -1359,6 +1368,14 @@ PrefabInstance:
       propertyPath: _birdsPool.Array.data[2]
       value: 
       objectReference: {fileID: 1457642504}
+    - target: {fileID: 9152364693254531853, guid: 1cc22a6831b6d1f4b94d76c0b7fd9d54, type: 3}
+      propertyPath: m_Name
+      value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152364693254531853, guid: 1cc22a6831b6d1f4b94d76c0b7fd9d54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

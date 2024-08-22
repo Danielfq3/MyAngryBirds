@@ -91,7 +91,7 @@ public class HealthForObjects : MonoBehaviour
             Destroy(gameObject);
             OnObjectDestroyed();
         }
-        if (gameObject.transform.position.magnitude > 200)
+        if (gameObject.transform.position.magnitude > 60)
         {
             FindScoreCounterObject().GetComponent<ScoreCounter>().AddScore(gameObject.tag);
             Destroy(gameObject);
