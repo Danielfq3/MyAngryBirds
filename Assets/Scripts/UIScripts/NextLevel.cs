@@ -55,7 +55,6 @@ public class NextLevel : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
     private void Update()
     {
         if (FindAllPigs().Length < 1)

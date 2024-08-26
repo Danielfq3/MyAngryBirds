@@ -128,18 +128,36 @@ public class CameraMovement : MonoBehaviour
 
         if (Input.touchCount == 1)
         {
-            if (_birdLauncher.LaunchRadius > (_birdLauncher.LaunchPointPosition - (Vector2)_mainCamera.ScreenToWorldPoint(Input.GetTouch(0).rawPosition)).magnitude)
+            if (Input.GetMouseButtonDown(0))
+            {
+                _origin = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            }
+
+            if (_birdLauncher.LaunchRadius > (_birdLauncher.LaunchPointPosition - _origin).magnitude)
             {
                 return;
             }
 
-            if (Input.GetTouch(0).position == Input.GetTouch(0).rawPosition)
+            /*if (Input.GetTouch(0).position == Input.GetTouch(0).rawPosition)
             {
                 _origin = _mainCamera.ScreenToWorldPoint(Input.GetTouch(0).rawPosition);
             }
+            print(Input.GetTouch(0).rawPosition);
             _mousePosition = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
             _difference = (Vector2)_lookPoint.transform.position - _mousePosition;
-            _lookPoint.transform.position = (Vector2)_difference + _origin;
+            _lookPoint.transform.position = (Vector2)_difference + _origin;*/
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                _origin = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            }
+
+            if (Input.GetMouseButton(0))
+            {
+                _mousePosition = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                _difference = (Vector2)_lookPoint.transform.position - _mousePosition;
+                _lookPoint.transform.position = (Vector2)_difference + _origin;
+            }
         }
     }
 }
